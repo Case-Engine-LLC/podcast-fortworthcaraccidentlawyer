@@ -481,35 +481,35 @@ export const trustBadges = [
     "id": 1,
     "title": "Super Lawyers Rising Star",
     "tooltip": "Aaron Siddique has been recognized as a Super Lawyers Rising Star, an honor reserved for outstanding attorneys who have achieved exceptional results in personal injury law. This distinction is awarded to only 2.5% of attorneys in Texas based on peer recognition and professional achievement.",
-    "badge": "/badges/placeholder.avif",
+    "badge": "/badges/super-lawyers-rising-star.webp",
     "href": "#super-lawyers"
   },
   {
     "id": 2,
     "title": "Top 40 Under 40",
     "tooltip": "Selected by the National Trial Lawyers as one of the Top 40 Under 40 civil plaintiff trial lawyers in Texas. This prestigious recognition highlights Aaron Siddique's exceptional trial skills, significant case results, and dedication to advocating for injured clients in Fort Worth and throughout the state.",
-    "badge": "/badges/placeholder.avif",
+    "badge": "/badges/national-trial-lawyers-top-40.png",
     "href": "#top-40-under-40"
   },
   {
     "id": 3,
     "title": "Avvo Clients' Choice",
     "tooltip": "The Avvo Clients' Choice Award is presented to attorneys who have received consistently outstanding client reviews and maintain the highest ratings for professional service. Aaron Siddique earned this recognition based on verified 5-star reviews from personal injury clients who experienced exceptional representation.",
-    "badge": "/badges/placeholder.avif",
+    "badge": "/badges/avvo-clients-choice.png",
     "href": "#avvo-choice"
   },
   {
     "id": 4,
     "title": "Million Dollar Advocates Forum",
     "tooltip": "Membership in the Million Dollar Advocates Forum is limited to trial lawyers who have won million-dollar verdicts and settlements for their clients. Aaron Siddique's inclusion recognizes his proven ability to secure substantial compensation for Fort Worth accident victims in complex personal injury cases.",
-    "badge": "/badges/placeholder.avif",
+    "badge": "/badges/million-dollar-advocates.gif",
     "href": "#million-dollar-advocates"
   },
   {
     "id": 5,
     "title": "Client Champion Award",
     "tooltip": "The Client Champion Award honors attorneys who demonstrate unwavering commitment to client advocacy, maintain exceptional communication throughout the legal process, and consistently achieve superior outcomes in personal injury litigation. Aaron Siddique received this recognition for his client-focused approach and dedication to justice.",
-    "badge": "/badges/placeholder.avif",
+    "badge": "/badges/client-champion.png",
     "href": "#client-champion"
   }
 ];
