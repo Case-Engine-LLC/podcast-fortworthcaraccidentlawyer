@@ -1,0 +1,21 @@
+{
+  "name": "Fort Worth Accident Attorney & Law w. Aaron Siddique",
+  "short_name": "1-800 The Wolf",
+  "description": "Aaron Siddique, Founder & Managing Partner of 1-800 The Wolf Accident Attorneys, breaks down Texas personal injury law for accident victims across Fort Worth, the Mid-Cities, and Houston.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0E0E",
+  "theme_color": "#0E0E0E",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

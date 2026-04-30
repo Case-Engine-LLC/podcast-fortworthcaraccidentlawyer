@@ -3,7 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react'
-import { footer, chapters } from '@/data/siteData'
+import { footer, chapters, contact, compliance } from '@/data/siteData'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -12,6 +12,10 @@ const Footer = () => {
     name: `Episode ${ch.number}: ${ch.title.split(':')[0]}`,
     href: `#chapter-${ch.number}`,
   }))
+
+  const firmDomain = contact.website ? contact.website.replace(/^https?:\/\//, '').replace(/\/$/, '') : ''
+  const advertisingDisclaimer = compliance.disclaimers.find(d => d.kind === 'attorney_advertising')?.text
+    || 'Attorney Advertising. Past results do not guarantee future outcomes.'
 
   return (
     <footer className="bg-[#0a0a1a] text-white">
@@ -75,12 +79,43 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* Copyright + Compliance */}
       <div className="border-t border-white/10">
         <div className="max-w-container mx-auto px-6 md:px-12 py-6">
           <p className="text-sm text-white/60 text-center">
             © {currentYear} {footer.copyright}. All rights reserved.
           </p>
+          <p className="text-xs text-white/40 text-center mt-2 max-w-3xl mx-auto leading-relaxed">
+            {advertisingDisclaimer}
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4 mt-3">
+            {contact.website && (
+              <a
+                href={contact.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-white/50 underline hover:text-white/80"
+              >
+                Visit {firmDomain}
+              </a>
+            )}
+            {contact.phone && (
+              <>
+                <span className="text-xs text-white/20">|</span>
+                <a href={`tel:${contact.phone.replace(/[^0-9+]/g, '')}`} className="text-xs text-white/50 hover:text-white/80">
+                  {contact.phone}
+                </a>
+              </>
+            )}
+            {contact.email && (
+              <>
+                <span className="text-xs text-white/20">|</span>
+                <a href={`mailto:${contact.email}`} className="text-xs text-white/50 hover:text-white/80">
+                  {contact.email}
+                </a>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </footer>

@@ -6,6 +6,7 @@
 export const siteConfig = {
   "podcastName": "Fort Worth Accident Attorney & Law w. Aaron Siddique",
   "tagline": "NEW EPISODE",
+  "podcastUrl": "https://fortworthaccident.attorney",
   "platformLinks": {
     "apple": "#",
     "spotify": "#"
@@ -14,6 +15,43 @@ export const siteConfig = {
     "text": "Free Consultation",
     "href": "#form"
   }
+};
+
+export const compliance = {
+  "jurisdiction": "Texas",
+  "firm": "1-800 The Wolf Accident Attorneys / The Siddique Firm, PLLC",
+  "responsibleAttorneys": [
+    {
+      "name": "Aaron Siddique",
+      "barNumber": ""
+    }
+  ],
+  "disclaimers": [
+    {
+      "kind": "attorney_advertising",
+      "text": "This is an advertisement for legal services subject to the Texas Disciplinary Rules of Professional Conduct, including Rule 7.02 (Communications Concerning a Lawyer's Services) and Rule 7.04 (Solicitation and Other Prohibited Communications). The information on this website and podcast is for general informational purposes only and does not constitute legal advice."
+    },
+    {
+      "kind": "no_ac_relationship",
+      "text": "Viewing this site, listening to the podcast, or communicating with 1-800 The Wolf Accident Attorneys does not create an attorney-client relationship. No attorney-client relationship exists unless and until a written fee agreement has been signed by both the client and an attorney with The Siddique Firm, PLLC."
+    },
+    {
+      "kind": "prior_results",
+      "text": "Past results do not guarantee future outcomes. Each case is unique and must be evaluated on its own merits. The outcome of any prior case does not predict a similar result in your case."
+    },
+    {
+      "kind": "testimonial",
+      "text": "Any client testimonials, endorsements, or reviews shown on this site reflect the individual experience of the client, are not a guarantee of similar results, and were provided without compensation."
+    },
+    {
+      "kind": "jurisdictional",
+      "text": "Aaron Siddique is licensed to practice in the State of Texas. This website is not intended as a solicitation for legal services in any jurisdiction where attorneys with The Siddique Firm, PLLC are not licensed to practice."
+    },
+    {
+      "kind": "fee_structure",
+      "text": "Contingency Fee Notice: No attorney's fees are charged unless a recovery is obtained on your behalf. Clients may be responsible for case-related costs (expert witness fees, court costs, medical records) as outlined in a written fee agreement."
+    }
+  ]
 };
 
 export const episode = {
@@ -212,6 +250,11 @@ export const navigation = {
     {
       "name": "About",
       "href": "#about"
+    },
+    {
+      "name": "Aaron's Bio",
+      "href": "https://www.aaronsiddique.attorney/",
+      "external": true
     },
     {
       "name": "Contact",
@@ -589,9 +632,23 @@ export const authorProfiles: Record<string, {
     barNumber: "",
     barUrl: "",
     education: [],
-    admissions: [],
+    admissions: [
+      { jurisdiction: "State Bar of Texas", year: "" }
+    ],
     awards: [],
-    practiceAreas: [],
+    practiceAreas: [
+      "Car Accidents",
+      "Truck Accidents",
+      "Motorcycle Accidents",
+      "Uber and Lyft Rideshare Accidents",
+      "Traumatic Brain Injury",
+      "Wrongful Death",
+      "Pedestrian Accidents",
+      "Bicycle Accidents",
+      "Slip and Fall",
+      "Dog Bite Injuries",
+      "DUI Injury Accidents"
+    ],
     bio: [
       "Aaron Siddique is a dedicated personal injury attorney who leads the legal team at 1-800 The Wolf Accident Attorneys in Fort Worth, Texas. With extensive experience handling complex accident cases throughout Tarrant County and the surrounding Dallas-Fort Worth metroplex, Aaron Siddique has built a reputation for aggressive advocacy and compassionate client service. Aaron Siddique understands that accident victims face not only physical injuries but also financial hardship, emotional trauma, and uncertainty about their future, which is why he approaches each case with both legal expertise and genuine empathy.",
       "Throughout his legal career, Aaron Siddique has successfully represented clients injured in car accidents, truck collisions, motorcycle crashes, bicycle accidents, and pedestrian incidents. Aaron Siddique has also handled numerous wrongful death cases and traumatic brain injury claims, securing substantial compensation for families devastated by preventable tragedies. Aaron Siddique's approach combines thorough investigation, expert collaboration, and strategic negotiation to build compelling cases that insurance companies cannot ignore.",

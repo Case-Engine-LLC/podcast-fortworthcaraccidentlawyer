@@ -17,15 +17,28 @@ const Header = () => {
 
         {/* Center: Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
-          {navigation.items.map((item) => (
-            <Link
-              key={item.name}
-              href={`/v3${item.href}`}
-              className="text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors"
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navigation.items.map((item) => {
+            const isExternal = (item as { external?: boolean }).external || /^https?:\/\//.test(item.href)
+            return isExternal ? (
+              <a
+                key={item.name}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors"
+              >
+                {item.name}
+              </a>
+            ) : (
+              <Link
+                key={item.name}
+                href={`/v3${item.href}`}
+                className="text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors"
+              >
+                {item.name}
+              </Link>
+            )
+          })}
         </div>
 
         {/* Right: Subscribe + Mobile Toggle */}
@@ -56,16 +69,30 @@ const Header = () => {
       {/* Mobile Menu */}
       {mobileOpen && (
         <div className="md:hidden bg-[#050505]/95 backdrop-blur-md border-t border-white/5 px-6 pb-6">
-          {navigation.items.map((item) => (
-            <Link
-              key={item.name}
-              href={`/v3${item.href}`}
-              className="block py-3 text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors"
-              onClick={() => setMobileOpen(false)}
-            >
-              {item.name}
-            </Link>
-          ))}
+          {navigation.items.map((item) => {
+            const isExternal = (item as { external?: boolean }).external || /^https?:\/\//.test(item.href)
+            return isExternal ? (
+              <a
+                key={item.name}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block py-3 text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                {item.name}
+              </a>
+            ) : (
+              <Link
+                key={item.name}
+                href={`/v3${item.href}`}
+                className="block py-3 text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                {item.name}
+              </Link>
+            )
+          })}
         </div>
       )}
     </nav>
