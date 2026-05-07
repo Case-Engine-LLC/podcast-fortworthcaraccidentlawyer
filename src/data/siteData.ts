@@ -1,5 +1,5 @@
 /**
- * Site Data — Generated from Case Engine AI
+ * Site Data, Generated from Case Engine AI
  * Updated: 2026-03-10T16:11:17.532343+00:00
  */
 
@@ -14,7 +14,8 @@ export const siteConfig = {
   "formCTA": {
     "text": "Free Consultation",
     "href": "#form"
-  }
+  },
+  "firmUrl": "https://1800thewolf.com"
 };
 
 export const compliance = {
@@ -59,7 +60,8 @@ export const episode = {
   "title": "Understanding Your Rights After a Fort Worth Car Accident",
   "date": "01.15.24",
   "duration": "00:45:30",
-  "description": "In this inaugural episode, Aaron Siddique discusses the critical steps Fort Worth accident victims should take immediately following a collision. Aaron covers common mistakes that can jeopardize your claim, how to deal with insurance adjusters, and when to seek legal representation. This episode provides essential guidance for anyone navigating the aftermath of a car accident in Tarrant County."
+  "description": "In this inaugural episode, Aaron Siddique discusses the critical steps Fort Worth accident victims should take immediately following a collision. Aaron covers common mistakes that can jeopardize your claim, how to deal with insurance adjusters, and when to seek legal representation. This episode provides essential guidance for anyone navigating the aftermath of a car accident in Tarrant County.",
+  "youtubeUrl": ""
 };
 
 export const attorney = {
@@ -262,7 +264,7 @@ export const navigation = {
     }
   ],
   "ctaText": "Subscribe",
-  "ctaHref": "#subscribe"
+  "ctaHref": "#listen"
 };
 
 export const footer = {
@@ -352,7 +354,8 @@ export const episodes = [
       "When to Hire an Attorney",
       "Understanding Your Compensation Options"
     ],
-    "logo": "/images/logo.svg"
+    "logo": "/images/logo.svg",
+    "youtubeUrl": ""
   },
   {
     "id": 2,
@@ -378,7 +381,8 @@ export const episodes = [
       "Identifying All Responsible Parties",
       "Building a Strong Truck Accident Case"
     ],
-    "logo": "/images/logo.svg"
+    "logo": "/images/logo.svg",
+    "youtubeUrl": ""
   }
 ];
 
@@ -400,24 +404,24 @@ export const topicalEntryGrid = {
       "label": "Car Accidents",
       "links": [
         {
-          "title": "Rear-End Collisions in Fort Worth",
-          "description": "Learn about liability, common injuries, and compensation options for rear-end accidents on Fort Worth roads and highways.",
-          "href": "#rear-end-collisions"
+          "title": "Fort Worth Car Accident Lawyer",
+          "description": "1-800 The Wolf represents drivers and passengers injured in serious Fort Worth collisions, from I-35W freeway crashes to surface-street impacts.",
+          "href": "https://1800thewolf.com/fort-worth-car-accident-lawyer/"
         },
         {
-          "title": "Intersection Accidents and Right-of-Way",
-          "description": "Understand Texas traffic laws, fault determination, and your rights after an intersection collision in Fort Worth.",
-          "href": "#intersection-accidents"
+          "title": "Fort Worth Personal Injury Lawyer",
+          "description": "Comprehensive personal injury representation across Tarrant County for victims of negligence and serious accidents.",
+          "href": "https://1800thewolf.com/fort-worth-personal-injury-lawyer/"
         },
         {
-          "title": "Hit-and-Run Accident Claims",
-          "description": "Discover your legal options and insurance coverage when the at-fault driver flees the scene of an accident.",
-          "href": "#hit-and-run"
+          "title": "What a Personal Injury Attorney Does",
+          "description": "A walk-through of how 1-800 The Wolf investigates, builds, and resolves personal injury cases from intake to verdict.",
+          "href": "https://1800thewolf.com/what-does-a-personal-injury-attorney-do/"
         },
         {
-          "title": "Distracted Driving Cases",
-          "description": "Explore how texting, phone use, and other distractions create liability in Fort Worth car accident cases.",
-          "href": "#distracted-driving"
+          "title": "Recent Case Results",
+          "description": "Verdicts and settlements secured for Fort Worth and Tarrant County injury victims by 1-800 The Wolf.",
+          "href": "https://1800thewolf.com/case-results/"
         }
       ]
     },
@@ -425,24 +429,24 @@ export const topicalEntryGrid = {
       "label": "Truck Accidents",
       "links": [
         {
-          "title": "18-Wheeler Crashes on Fort Worth Highways",
-          "description": "Learn about the unique dangers of semi-truck accidents on I-35W, I-30, and other major Fort Worth thoroughfares.",
-          "href": "#18-wheeler-crashes"
+          "title": "Fort Worth Truck Accident Lawyer",
+          "description": "Commercial trucking cases involve federal motor carrier regulations, multiple corporate defendants, and catastrophic injuries.",
+          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/"
         },
         {
-          "title": "Truck Driver Fatigue and Hours of Service",
-          "description": "Understand federal regulations limiting truck driver hours and how violations contribute to serious accidents.",
-          "href": "#driver-fatigue"
+          "title": "Fort Worth Personal Injury Lawyer",
+          "description": "Truck crash victims often need full personal-injury representation, medical liens, lost wages, future care.",
+          "href": "https://1800thewolf.com/fort-worth-personal-injury-lawyer/"
         },
         {
-          "title": "Cargo Loading and Securing Violations",
-          "description": "Discover how improper cargo loading creates hazards and establishes liability in Fort Worth truck accident cases.",
-          "href": "#cargo-violations"
+          "title": "What a Personal Injury Attorney Does",
+          "description": "How 1-800 The Wolf preserves trucking-company evidence early: ELD logs, driver qualification files, maintenance records.",
+          "href": "https://1800thewolf.com/what-does-a-personal-injury-attorney-do/"
         },
         {
-          "title": "Trucking Company Negligence",
-          "description": "Explore how inadequate training, poor maintenance, and corporate policies lead to preventable truck accidents.",
-          "href": "#company-negligence"
+          "title": "Case Results",
+          "description": "Recent commercial-vehicle and trucking case outcomes from 1-800 The Wolf.",
+          "href": "https://1800thewolf.com/case-results/"
         }
       ]
     },
@@ -450,24 +454,24 @@ export const topicalEntryGrid = {
       "label": "Motorcycle Accidents",
       "links": [
         {
-          "title": "Left-Turn Motorcycle Collisions",
-          "description": "Learn why left-turning vehicles are the leading cause of motorcycle accidents and how to prove fault in Fort Worth.",
-          "href": "#left-turn-collisions"
+          "title": "Fort Worth Motorcycle Accident Lawyer",
+          "description": "Motorcycle cases involve insurer bias and Texas comparative-fault rules. 1-800 The Wolf pushes back on assumptions about rider conduct.",
+          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/"
         },
         {
-          "title": "Lane Splitting and Texas Law",
-          "description": "Understand Texas regulations on lane splitting and how it affects liability in motorcycle accident cases.",
-          "href": "#lane-splitting"
+          "title": "Fort Worth Bicycle Accident Lawyer",
+          "description": "Two-wheeled crash victims face the same insurer-bias problems, the firm represents both motorcycle and bicycle riders.",
+          "href": "https://1800thewolf.com/fort-worth-bicycle-accident-lawyer/"
         },
         {
-          "title": "Road Hazards and Motorcycle Crashes",
-          "description": "Discover how potholes, debris, and poor road maintenance contribute to motorcycle accidents and government liability.",
-          "href": "#road-hazards"
+          "title": "Fort Worth Personal Injury Lawyer",
+          "description": "Severe motorcycle injuries usually need full personal-injury representation, this is the firm's core service.",
+          "href": "https://1800thewolf.com/fort-worth-personal-injury-lawyer/"
         },
         {
-          "title": "Motorcycle Accident Injuries and Compensation",
-          "description": "Explore the severe injuries common in motorcycle crashes and the full compensation available to Fort Worth victims.",
-          "href": "#motorcycle-injuries"
+          "title": "Recent Verdicts and Settlements",
+          "description": "Past motorcycle-crash recoveries and other Fort Worth injury results.",
+          "href": "https://1800thewolf.com/case-results/"
         }
       ]
     },
@@ -475,44 +479,49 @@ export const topicalEntryGrid = {
       "label": "Wrongful Death",
       "links": [
         {
-          "title": "Filing a Wrongful Death Claim in Texas",
-          "description": "Learn who can file a wrongful death lawsuit, time limits, and the types of compensation available to surviving family members.",
-          "href": "#wrongful-death-claims"
+          "title": "Fort Worth Wrongful Death Lawyer",
+          "description": "Texas Civil Practice & Remedies Code Chapter 71 governs wrongful-death claims. 1-800 The Wolf represents surviving spouses, children, and parents.",
+          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/"
         },
         {
-          "title": "Fatal Accident Investigations",
-          "description": "Understand how Aaron Siddique conducts thorough investigations to establish liability in fatal accident cases.",
-          "href": "#fatal-investigations"
+          "title": "Fort Worth Pedestrian Accident Lawyer",
+          "description": "Pedestrian fatalities are tragically common at Fort Worth intersections. The firm investigates from scene to courtroom.",
+          "href": "https://1800thewolf.com/fort-worth-pedestrian-accident-lawyer/"
         },
         {
-          "title": "Damages in Wrongful Death Cases",
-          "description": "Explore the economic and non-economic damages recoverable when a loved one is killed in a Fort Worth accident.",
-          "href": "#wrongful-death-damages"
+          "title": "Fort Worth Truck Accident Lawyer",
+          "description": "Many fatal Tarrant County crashes involve commercial trucks, federal regulations, and multiple corporate defendants.",
+          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/"
+        },
+        {
+          "title": "Case Results",
+          "description": "Past wrongful-death and catastrophic-injury recoveries handled by 1-800 The Wolf.",
+          "href": "https://1800thewolf.com/case-results/"
         }
       ]
     },
     {
-      "label": "Insurance Claims",
+      "label": "Resources",
       "links": [
         {
-          "title": "Dealing with Insurance Adjusters",
-          "description": "Learn tactics insurance companies use to minimize payouts and how to protect your rights during claim negotiations.",
-          "href": "#insurance-adjusters"
+          "title": "Contact 1-800 The Wolf",
+          "description": "Free consultation, contingency fee, no recovery means no fee. Reach the firm directly.",
+          "href": "https://1800thewolf.com/contact-us/"
         },
         {
-          "title": "Uninsured and Underinsured Motorist Coverage",
-          "description": "Understand how UM/UIM coverage works in Texas and when to file claims against your own insurance policy.",
-          "href": "#um-uim-coverage"
+          "title": "Client Testimonials",
+          "description": "Real-client experiences with 1-800 The Wolf Accident Attorneys in Fort Worth.",
+          "href": "https://1800thewolf.com/testimonials/"
         },
         {
-          "title": "Bad Faith Insurance Practices",
-          "description": "Discover when insurance companies act in bad faith and your legal options for holding them accountable.",
-          "href": "#bad-faith-insurance"
+          "title": "Personal Injury Blog",
+          "description": "Texas personal-injury law commentary, news, and case updates from the firm.",
+          "href": "https://1800thewolf.com/blog/"
         },
         {
-          "title": "Maximizing Your Settlement Offer",
-          "description": "Learn strategies Aaron Siddique uses to negotiate higher settlements and when to take cases to trial.",
-          "href": "#maximizing-settlement"
+          "title": "Case Results",
+          "description": "Recent verdicts and settlements in Fort Worth personal-injury cases.",
+          "href": "https://1800thewolf.com/case-results/"
         }
       ]
     }
