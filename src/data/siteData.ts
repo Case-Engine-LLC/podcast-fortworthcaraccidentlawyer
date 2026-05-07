@@ -1,5 +1,5 @@
 /**
- * Site Data, Generated from Case Engine AI
+ * Site Data — Generated from Case Engine AI
  * Updated: 2026-03-10T16:11:17.532343+00:00
  */
 
@@ -14,8 +14,7 @@ export const siteConfig = {
   "formCTA": {
     "text": "Free Consultation",
     "href": "#form"
-  },
-  "firmUrl": "https://1800thewolf.com"
+  }
 };
 
 export const compliance = {
@@ -60,8 +59,7 @@ export const episode = {
   "title": "Understanding Your Rights After a Fort Worth Car Accident",
   "date": "01.15.24",
   "duration": "00:45:30",
-  "description": "In this inaugural episode, Aaron Siddique discusses the critical steps Fort Worth accident victims should take immediately following a collision. Aaron covers common mistakes that can jeopardize your claim, how to deal with insurance adjusters, and when to seek legal representation. This episode provides essential guidance for anyone navigating the aftermath of a car accident in Tarrant County.",
-  "youtubeUrl": ""
+  "description": "In this inaugural episode, Aaron Siddique discusses the critical steps Fort Worth accident victims should take immediately following a collision. Aaron covers common mistakes that can jeopardize your claim, how to deal with insurance adjusters, and when to seek legal representation. This episode provides essential guidance for anyone navigating the aftermath of a car accident in Tarrant County."
 };
 
 export const attorney = {
@@ -69,7 +67,7 @@ export const attorney = {
   "firm": "1-800 The Wolf Accident Attorneys",
   "title": "Lead Personal Injury Attorney",
   "bio": [
-    "Aaron Siddique is a dedicated personal injury attorney who leads the legal team at 1-800 The Wolf Accident Attorneys in Fort Worth, Texas. With extensive experience handling complex accident cases throughout Tarrant County and the surrounding Dallas-Fort Worth metroplex, Aaron Siddique has built a reputation for aggressive advocacy and compassionate client service. Aaron Siddique understands that accident victims face not only physical injuries but also financial hardship, emotional trauma, and uncertainty about their future, which is why he approaches each case with both legal expertise and genuine empathy.",
+    "Aaron Siddique is a dedicated personal injury attorney who leads the legal team at 1-800 The Wolf Accident Attorneys in Fort Worth, Texas. With extensive experience handling complex accident cases throughout Tarrant County and the surrounding Dallas-Fort Worth metroplex, Aaron Siddique has built a reputation for aggressive advocacy and compassionate client service. Aaron Siddique understands that accident victims face not only physical injuries but also financial hardship, emotional trauma, and uncertainty about their future, which is why he approaches each case with both legal experience and genuine empathy.",
     "Throughout his legal career, Aaron Siddique has successfully represented clients injured in car accidents, truck collisions, motorcycle crashes, bicycle accidents, and pedestrian incidents. Aaron Siddique has also handled numerous wrongful death cases and traumatic brain injury claims, securing substantial compensation for families devastated by preventable tragedies. Aaron Siddique's approach combines thorough investigation, expert collaboration, and strategic negotiation to build compelling cases that insurance companies cannot ignore.",
     "Beyond his casework, Aaron Siddique is committed to educating the Fort Worth community about their legal rights. Through this podcast, Aaron Siddique shares insights from years of courtroom experience, breaks down complex legal concepts into understandable terms, and empowers accident victims to make informed decisions about their cases. When Aaron Siddique is not advocating for injured clients, he remains active in the Fort Worth legal community and stays current on evolving personal injury law to provide the most effective representation possible."
   ],
@@ -118,12 +116,12 @@ export const faqGroups = [
     "description": "Learn more about the Fort Worth Accident Attorney & Law podcast and what you can expect from each episode.",
     "questions": [
       {
-        "question": "What topics does Aaron Siddique cover on the Fort Worth Accident Attorney & Law podcast?",
+        "question": "What Topics Does Aaron Siddique Cover on the Fort Worth Accident Attorney & Law podcast?",
         "level": "h2",
         "answer": "Aaron Siddique covers a wide range of personal injury topics including car accidents, truck collisions, motorcycle crashes, wrongful death cases, and traumatic brain injuries. Each episode provides valuable insights into Texas personal injury law, victim rights, insurance claim processes, and real-world case examples from Fort Worth and surrounding areas."
       },
       {
-        "question": "How often are new podcast episodes released?",
+        "question": "How Often Are New Podcast Episodes Released?",
         "level": "h3",
         "answer": "New episodes of Fort Worth Accident Attorney & Law are released weekly, providing consistent legal education and updates on personal injury law in Texas. Aaron Siddique ensures each episode delivers actionable information that accident victims and their families can use when navigating the legal system."
       },
@@ -144,32 +142,32 @@ export const faqGroups = [
     "description": "Common questions about personal injury law and working with 1-800 The Wolf Accident Attorneys in Fort Worth.",
     "questions": [
       {
-        "question": "What should I do immediately after a car accident in Fort Worth?",
+        "question": "What Should I Do Immediately After a Car Accident in Fort Worth?",
         "level": "h2",
         "answer": "After a car accident in Fort Worth, first ensure everyone's safety and call 911 if there are injuries. Document the scene with photos, exchange information with other drivers, and obtain contact details from witnesses. Aaron Siddique recommends seeking medical attention immediately, even for seemingly minor injuries, and contacting an experienced personal injury attorney before speaking with insurance adjusters."
       },
       {
         "question": "How long do I have to file a personal injury claim in Texas?",
         "level": "h2",
-        "answer": "In Texas, the statute of limitations for most personal injury cases is two years from the date of the accident. However, Aaron Siddique advises clients not to wait, as evidence can disappear and witness memories fade over time. Contacting 1-800 The Wolf immediately after an accident ensures your rights are protected and your case is built on the strongest possible foundation."
+        "answer": "In Texas, the statute of limitations for most personal injury cases is two years from the date of the accident. However, Aaron Siddique advises clients not to wait, as evidence can disappear and witness memories fade over time. Contacting 1-800 The Wolf Accident Attorneys immediately after an accident ensures your rights are protected and your case is built on the strongest possible foundation."
       },
       {
-        "question": "Does it cost anything to consult with Aaron Siddique about my case?",
+        "question": "Does it Cost Anything to Consult with Aaron Siddique about My Case?",
         "level": "h3",
         "answer": "No, 1-800 The Wolf Accident Attorneys offers free consultations to evaluate your personal injury case. Aaron Siddique works on a contingency fee basis, meaning you pay nothing unless your case is won. This ensures that all Fort Worth accident victims have access to experienced legal representation regardless of their financial situation."
       },
       {
-        "question": "What makes Fort Worth truck accident cases different from car accident cases?",
+        "question": "What Makes Fort Worth Truck Accident Cases Different from Car Accident Cases?",
         "level": "h3",
-        "answer": "Truck accident cases in Fort Worth involve federal regulations, commercial insurance policies, and often multiple liable parties including trucking companies and cargo loaders. Aaron Siddique has extensive experience navigating these complex cases, which typically result in more severe injuries and require thorough investigation of driver logs, maintenance records, and corporate policies to maximize compensation for victims."
+        "answer": "Truck accident cases in Fort Worth involve federal regulations, commercial insurance policies, and often multiple liable parties including trucking companies and cargo loaders. Aaron Siddique has extensive experience navigating these complex cases, which typically result in more severe injuries and require thorough investigation of driver logs, maintenance records, and corporate policies for fair recovery."
       }
     ]
   }
 ];
 
 export const content = {
-  "heroTitle": "Fort Worth Accident Attorney & Law w. Aaron Siddique",
-  "heroDescription": "Join Fort Worth personal injury attorney Aaron Siddique as he breaks down the complex world of accident law in Texas. Each episode delivers practical legal insights, real-world case examples, and actionable advice for accident victims navigating the claims process. Whether you've been injured in a car crash, truck accident, or any other incident in the Dallas-Fort Worth area, this podcast provides the knowledge you need to protect your rights and maximize your recovery.",
+  "heroTitle": "Fort Worth Accident Attorney & Law with Aaron Siddique",
+  "heroDescription": "Join Fort Worth personal injury attorney Aaron Siddique as he breaks down the complex world of accident law in Texas. Each episode delivers practical legal insights, real-world case examples, and actionable advice for accident victims navigating the claims process. Whether you've been injured in a car crash, truck accident, or any other incident in the Dallas-Fort Worth area, this podcast provides the knowledge you need to protect your rights and pursue fair recovery.",
   "articleTitle": "Empowering Fort Worth Accident Victims Through Legal Education",
   "articleParagraphs": [
     "The Fort Worth Accident Attorney & Law podcast was created to bridge the gap between complex legal procedures and the everyday people who need to understand them. Aaron Siddique recognized that many accident victims feel overwhelmed and confused when dealing with insurance companies, medical bills, and legal terminology. This podcast demystifies the personal injury process, offering clear explanations of Texas law, practical guidance on building strong claims, and honest answers to the questions that keep injured victims awake at night.",
@@ -186,7 +184,7 @@ export const testimonials = [
     "initials": "MR",
     "role": "Google Reviewer",
     "rating": 5,
-    "text": "Aaron Siddique and his team at 1-800 The Wolf handled my truck accident case with exceptional professionalism. They kept me informed every step of the way and fought hard to get me the compensation I deserved. I highly recommend them to anyone injured in Fort Worth."
+    "text": "Aaron Siddique and his team at 1-800 The Wolf Accident Attorneys handled my truck accident case with exceptional professionalism. They kept me informed every step of the way and fought hard to get me the compensation I deserved. I highly recommend them to anyone injured in Fort Worth."
   },
   {
     "id": 2,
@@ -264,7 +262,7 @@ export const navigation = {
     }
   ],
   "ctaText": "Subscribe",
-  "ctaHref": "#listen"
+  "ctaHref": "#subscribe"
 };
 
 export const footer = {
@@ -305,10 +303,10 @@ export const awards = [
 
 export const about = {
   "title": "About Fort Worth Accident Attorney & Law with Aaron Siddique",
-  "description": "Fort Worth Accident Attorney & Law is a podcast dedicated to empowering accident victims with the legal knowledge they need to protect their rights and maximize their compensation. Hosted by Aaron Siddique, lead attorney at 1-800 The Wolf Accident Attorneys, each episode breaks down complex personal injury law into actionable insights that listeners can use when navigating insurance claims, medical treatment, and legal proceedings. Aaron Siddique brings years of courtroom experience and a passion for client advocacy to every episode, discussing real cases, Texas-specific laws, and practical strategies for anyone who has been injured in a car accident, truck collision, motorcycle crash, or other personal injury incident in Fort Worth and surrounding areas.",
+  "description": "Fort Worth Accident Attorney & Law is a podcast dedicated to empowering accident victims with the legal knowledge they need to protect their rights and help them pursue fair compensation. Hosted by Aaron Siddique, lead attorney at 1-800 The Wolf Accident Attorneys, each episode breaks down complex personal injury law into actionable insights that listeners can use when navigating insurance claims, medical treatment, and legal proceedings. Aaron Siddique brings years of courtroom experience and a passion for client advocacy to every episode, discussing real cases, Texas-specific laws, and practical strategies for anyone who has been injured in a car accident, truck collision, motorcycle crash, or other personal injury incident in Fort Worth and surrounding areas.",
   "highlights": [
     "Weekly episodes covering car accidents, truck collisions, motorcycle crashes, wrongful death, and traumatic brain injuries",
-    "Expert legal analysis from Aaron Siddique, a leading Fort Worth personal injury attorney with over $100M recovered for clients",
+    "Experienced legal analysis from Aaron Siddique, a leading Fort Worth personal injury attorney with over $100M recovered for clients",
     "Real-world case studies and practical advice for navigating insurance claims and the Texas legal system",
     "Q&A episodes addressing listener questions about personal injury law and victim rights",
     "Updates on changing Texas laws, court decisions, and insurance company tactics that affect accident victims",
@@ -322,7 +320,7 @@ export const subscribeCTA = {
   "description": "Subscribe to Fort Worth Accident Attorney & Law to receive weekly episodes packed with legal insights, case updates, and practical advice for protecting your rights after an accident. Aaron Siddique delivers the information you need to make informed decisions about your personal injury case, whether you're dealing with insurance adjusters, considering legal action, or simply want to understand your options under Texas law.",
   "highlights": [
     "Weekly episodes delivered directly to your favorite podcast platform",
-    "Expert legal guidance from Aaron Siddique and 1-800 The Wolf Accident Attorneys",
+    "Experienced legal guidance from Aaron Siddique and 1-800 The Wolf Accident Attorneys",
     "Practical tips for maximizing your personal injury claim and avoiding common mistakes",
     "Updates on Texas personal injury law changes that could affect your case",
     "Exclusive Q&A sessions where Aaron Siddique answers listener questions"
@@ -354,15 +352,14 @@ export const episodes = [
       "When to Hire an Attorney",
       "Understanding Your Compensation Options"
     ],
-    "logo": "/images/logo.svg",
-    "youtubeUrl": ""
+    "logo": "/images/logo.svg"
   },
   {
     "id": 2,
     "number": 2,
     "title": "Fort Worth Truck Accidents: Why They're Different and More Dangerous",
     "subtitle": "Episode 2 \u2022 1-800 The Wolf Accident Attorneys",
-    "description": "Aaron Siddique explains why truck accident cases in Fort Worth require specialized legal expertise and often result in more substantial compensation. This episode covers federal trucking regulations, common causes of commercial vehicle crashes, how to identify all liable parties, and the unique challenges of going up against large trucking companies and their insurers. Listeners will learn what makes truck accident cases more complex and how experienced representation can make a significant difference in case outcomes.",
+    "description": "Aaron Siddique explains why truck accident cases in Fort Worth require extensive legal experience and often result in more substantial compensation. This episode covers federal trucking regulations, common causes of commercial vehicle crashes, how to identify all liable parties, and the unique challenges of going up against large trucking companies and their insurers. Listeners will learn what makes truck accident cases more complex and how experienced representation can make a significant difference in case outcomes.",
     "duration": "38 min",
     "date": "January 22, 2025",
     "category": "Truck Accidents",
@@ -381,8 +378,7 @@ export const episodes = [
       "Identifying All Responsible Parties",
       "Building a Strong Truck Accident Case"
     ],
-    "logo": "/images/logo.svg",
-    "youtubeUrl": ""
+    "logo": "/images/logo.svg"
   }
 ];
 
@@ -404,24 +400,24 @@ export const topicalEntryGrid = {
       "label": "Car Accidents",
       "links": [
         {
-          "title": "Fort Worth Car Accident Lawyer",
-          "description": "1-800 The Wolf represents drivers and passengers injured in serious Fort Worth collisions, from I-35W freeway crashes to surface-street impacts.",
-          "href": "https://1800thewolf.com/fort-worth-car-accident-lawyer/"
+          "title": "Rear-End Collisions in Fort Worth",
+          "description": "Learn about liability, common injuries, and compensation options for rear-end accidents on Fort Worth roads and highways.",
+          "href": "#rear-end-collisions"
         },
         {
-          "title": "Fort Worth Personal Injury Lawyer",
-          "description": "Comprehensive personal injury representation across Tarrant County for victims of negligence and serious accidents.",
-          "href": "https://1800thewolf.com/fort-worth-personal-injury-lawyer/"
+          "title": "Intersection Accidents and Right-of-Way",
+          "description": "Understand Texas traffic laws, fault determination, and your rights after an intersection collision in Fort Worth.",
+          "href": "#intersection-accidents"
         },
         {
-          "title": "What a Personal Injury Attorney Does",
-          "description": "A walk-through of how 1-800 The Wolf investigates, builds, and resolves personal injury cases from intake to verdict.",
-          "href": "https://1800thewolf.com/what-does-a-personal-injury-attorney-do/"
+          "title": "Hit-and-Run Accident Claims",
+          "description": "Discover your legal options and insurance coverage when the at-fault driver flees the scene of an accident.",
+          "href": "#hit-and-run"
         },
         {
-          "title": "Recent Case Results",
-          "description": "Verdicts and settlements secured for Fort Worth and Tarrant County injury victims by 1-800 The Wolf.",
-          "href": "https://1800thewolf.com/case-results/"
+          "title": "Distracted Driving Cases",
+          "description": "Explore how texting, phone use, and other distractions create liability in Fort Worth car accident cases.",
+          "href": "#distracted-driving"
         }
       ]
     },
@@ -429,24 +425,24 @@ export const topicalEntryGrid = {
       "label": "Truck Accidents",
       "links": [
         {
-          "title": "Fort Worth Truck Accident Lawyer",
-          "description": "Commercial trucking cases involve federal motor carrier regulations, multiple corporate defendants, and catastrophic injuries.",
-          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/"
+          "title": "18-Wheeler Crashes on Fort Worth Highways",
+          "description": "Learn about the unique dangers of semi-truck accidents on I-35W, I-30, and other major Fort Worth thoroughfares.",
+          "href": "#18-wheeler-crashes"
         },
         {
-          "title": "Fort Worth Personal Injury Lawyer",
-          "description": "Truck crash victims often need full personal-injury representation, medical liens, lost wages, future care.",
-          "href": "https://1800thewolf.com/fort-worth-personal-injury-lawyer/"
+          "title": "Truck Driver Fatigue and Hours of Service",
+          "description": "Understand federal regulations limiting truck driver hours and how violations contribute to serious accidents.",
+          "href": "#driver-fatigue"
         },
         {
-          "title": "What a Personal Injury Attorney Does",
-          "description": "How 1-800 The Wolf preserves trucking-company evidence early: ELD logs, driver qualification files, maintenance records.",
-          "href": "https://1800thewolf.com/what-does-a-personal-injury-attorney-do/"
+          "title": "Cargo Loading and Securing Violations",
+          "description": "Discover how improper cargo loading creates hazards and establishes liability in Fort Worth truck accident cases.",
+          "href": "#cargo-violations"
         },
         {
-          "title": "Case Results",
-          "description": "Recent commercial-vehicle and trucking case outcomes from 1-800 The Wolf.",
-          "href": "https://1800thewolf.com/case-results/"
+          "title": "Trucking Company Negligence",
+          "description": "Explore how inadequate training, poor maintenance, and corporate policies lead to preventable truck accidents.",
+          "href": "#company-negligence"
         }
       ]
     },
@@ -454,24 +450,24 @@ export const topicalEntryGrid = {
       "label": "Motorcycle Accidents",
       "links": [
         {
-          "title": "Fort Worth Motorcycle Accident Lawyer",
-          "description": "Motorcycle cases involve insurer bias and Texas comparative-fault rules. 1-800 The Wolf pushes back on assumptions about rider conduct.",
-          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/"
+          "title": "Left-Turn Motorcycle Collisions",
+          "description": "Learn why left-turning vehicles are the leading cause of motorcycle accidents and how to prove fault in Fort Worth.",
+          "href": "#left-turn-collisions"
         },
         {
-          "title": "Fort Worth Bicycle Accident Lawyer",
-          "description": "Two-wheeled crash victims face the same insurer-bias problems, the firm represents both motorcycle and bicycle riders.",
-          "href": "https://1800thewolf.com/fort-worth-bicycle-accident-lawyer/"
+          "title": "Lane Splitting and Texas Law",
+          "description": "Understand Texas regulations on lane splitting and how it affects liability in motorcycle accident cases.",
+          "href": "#lane-splitting"
         },
         {
-          "title": "Fort Worth Personal Injury Lawyer",
-          "description": "Severe motorcycle injuries usually need full personal-injury representation, this is the firm's core service.",
-          "href": "https://1800thewolf.com/fort-worth-personal-injury-lawyer/"
+          "title": "Road Hazards and Motorcycle Crashes",
+          "description": "Discover how potholes, debris, and poor road maintenance contribute to motorcycle accidents and government liability.",
+          "href": "#road-hazards"
         },
         {
-          "title": "Recent Verdicts and Settlements",
-          "description": "Past motorcycle-crash recoveries and other Fort Worth injury results.",
-          "href": "https://1800thewolf.com/case-results/"
+          "title": "Motorcycle Accident Injuries and Compensation",
+          "description": "Explore the severe injuries common in motorcycle crashes and the full compensation available to Fort Worth victims.",
+          "href": "#motorcycle-injuries"
         }
       ]
     },
@@ -479,49 +475,44 @@ export const topicalEntryGrid = {
       "label": "Wrongful Death",
       "links": [
         {
-          "title": "Fort Worth Wrongful Death Lawyer",
-          "description": "Texas Civil Practice & Remedies Code Chapter 71 governs wrongful-death claims. 1-800 The Wolf represents surviving spouses, children, and parents.",
-          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/"
+          "title": "Filing a Wrongful Death Claim in Texas",
+          "description": "Learn who can file a wrongful death lawsuit, time limits, and the types of compensation available to surviving family members.",
+          "href": "#wrongful-death-claims"
         },
         {
-          "title": "Fort Worth Pedestrian Accident Lawyer",
-          "description": "Pedestrian fatalities are tragically common at Fort Worth intersections. The firm investigates from scene to courtroom.",
-          "href": "https://1800thewolf.com/fort-worth-pedestrian-accident-lawyer/"
+          "title": "Fatal Accident Investigations",
+          "description": "Understand how Aaron Siddique conducts thorough investigations to establish liability in fatal accident cases.",
+          "href": "#fatal-investigations"
         },
         {
-          "title": "Fort Worth Truck Accident Lawyer",
-          "description": "Many fatal Tarrant County crashes involve commercial trucks, federal regulations, and multiple corporate defendants.",
-          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/"
-        },
-        {
-          "title": "Case Results",
-          "description": "Past wrongful-death and catastrophic-injury recoveries handled by 1-800 The Wolf.",
-          "href": "https://1800thewolf.com/case-results/"
+          "title": "Damages in Wrongful Death Cases",
+          "description": "Explore the economic and non-economic damages recoverable when a loved one is killed in a Fort Worth accident.",
+          "href": "#wrongful-death-damages"
         }
       ]
     },
     {
-      "label": "Resources",
+      "label": "Insurance Claims",
       "links": [
         {
-          "title": "Contact 1-800 The Wolf",
-          "description": "Free consultation, contingency fee, no recovery means no fee. Reach the firm directly.",
-          "href": "https://1800thewolf.com/contact-us/"
+          "title": "Dealing with Insurance Adjusters",
+          "description": "Learn tactics insurance companies use to minimize payouts and how to protect your rights during claim negotiations.",
+          "href": "#insurance-adjusters"
         },
         {
-          "title": "Client Testimonials",
-          "description": "Real-client experiences with 1-800 The Wolf Accident Attorneys in Fort Worth.",
-          "href": "https://1800thewolf.com/testimonials/"
+          "title": "Uninsured and Underinsured Motorist Coverage",
+          "description": "Understand how UM/UIM coverage works in Texas and when to file claims against your own insurance policy.",
+          "href": "#um-uim-coverage"
         },
         {
-          "title": "Personal Injury Blog",
-          "description": "Texas personal-injury law commentary, news, and case updates from the firm.",
-          "href": "https://1800thewolf.com/blog/"
+          "title": "Bad Faith Insurance Practices",
+          "description": "Discover when insurance companies act in bad faith and your legal options for holding them accountable.",
+          "href": "#bad-faith-insurance"
         },
         {
-          "title": "Case Results",
-          "description": "Recent verdicts and settlements in Fort Worth personal-injury cases.",
-          "href": "https://1800thewolf.com/case-results/"
+          "title": "Maximizing Your Settlement Offer",
+          "description": "Learn strategies Aaron Siddique uses to negotiate higher settlements and when to take cases to trial.",
+          "href": "#maximizing-settlement"
         }
       ]
     }
@@ -553,7 +544,7 @@ export const trustBadges = [
   {
     "id": 4,
     "title": "Million Dollar Advocates Forum",
-    "tooltip": "Membership in the Million Dollar Advocates Forum is limited to trial lawyers who have won million-dollar verdicts and settlements for their clients. Aaron Siddique's inclusion recognizes his proven ability to secure substantial compensation for Fort Worth accident victims in complex personal injury cases.",
+    "tooltip": "Membership in the Million Dollar Advocates Forum is limited to trial lawyers who have won million-dollar verdicts and settlements for their clients. Aaron Siddique's inclusion recognizes his proven ability to secure fair compensation for Fort Worth accident victims in complex personal injury cases.",
     "badge": "/badges/million-dollar-advocates.gif",
     "href": "#million-dollar-advocates"
   },
@@ -659,7 +650,7 @@ export const authorProfiles: Record<string, {
       "DUI Injury Accidents"
     ],
     bio: [
-      "Aaron Siddique is a dedicated personal injury attorney who leads the legal team at 1-800 The Wolf Accident Attorneys in Fort Worth, Texas. With extensive experience handling complex accident cases throughout Tarrant County and the surrounding Dallas-Fort Worth metroplex, Aaron Siddique has built a reputation for aggressive advocacy and compassionate client service. Aaron Siddique understands that accident victims face not only physical injuries but also financial hardship, emotional trauma, and uncertainty about their future, which is why he approaches each case with both legal expertise and genuine empathy.",
+      "Aaron Siddique is a dedicated personal injury attorney who leads the legal team at 1-800 The Wolf Accident Attorneys in Fort Worth, Texas. With extensive experience handling complex accident cases throughout Tarrant County and the surrounding Dallas-Fort Worth metroplex, Aaron Siddique has built a reputation for aggressive advocacy and compassionate client service. Aaron Siddique understands that accident victims face not only physical injuries but also financial hardship, emotional trauma, and uncertainty about their future, which is why he approaches each case with both legal experience and genuine empathy.",
       "Throughout his legal career, Aaron Siddique has successfully represented clients injured in car accidents, truck collisions, motorcycle crashes, bicycle accidents, and pedestrian incidents. Aaron Siddique has also handled numerous wrongful death cases and traumatic brain injury claims, securing substantial compensation for families devastated by preventable tragedies. Aaron Siddique's approach combines thorough investigation, expert collaboration, and strategic negotiation to build compelling cases that insurance companies cannot ignore.",
       "Beyond his casework, Aaron Siddique is committed to educating the Fort Worth community about their legal rights. Through this podcast, Aaron Siddique shares insights from years of courtroom experience, breaks down complex legal concepts into understandable terms, and empowers accident victims to make informed decisions about their cases. When Aaron Siddique is not advocating for injured clients, he remains active in the Fort Worth legal community and stays current on evolving personal injury law to provide the most effective representation possible."
 ],
