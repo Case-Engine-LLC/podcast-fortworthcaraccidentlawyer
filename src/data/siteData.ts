@@ -7,7 +7,6 @@ export const siteConfig = {
   "podcastName": "Fort Worth Accident Attorney & Law w. Aaron Siddique",
   "tagline": "NEW EPISODE",
   "podcastUrl": "https://fortworthaccident.attorney",
-  "firmUrl": "https://1800thewolf.com",
   "platformLinks": {
     "apple": "#",
     "spotify": "#"
