@@ -254,7 +254,7 @@ export const navigation = {
       "href": "#about"
     },
     {
-      "name": "Aaron's Bio",
+      "name": "Meet Aaron Siddique",
       "href": "https://www.aaronsiddique.attorney/",
       "external": true
     },
@@ -354,7 +354,8 @@ export const episodes = [
       "When to Hire an Attorney",
       "Understanding Your Compensation Options"
     ],
-    "logo": "/images/logo.svg"
+    "logo": "/images/logo.svg",
+    "youtubeUrl": ""
   },
   {
     "id": 2,
@@ -380,7 +381,8 @@ export const episodes = [
       "Identifying All Responsible Parties",
       "Building a Strong Truck Accident Case"
     ],
-    "logo": "/images/logo.svg"
+    "logo": "/images/logo.svg",
+    "youtubeUrl": ""
   }
 ];
 
