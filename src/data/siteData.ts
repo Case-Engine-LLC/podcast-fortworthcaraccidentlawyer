@@ -399,6 +399,7 @@ export const podcastTeam = [
 
 export const topicalEntryGrid = {
   "title": "Explore Personal Injury Topics",
+  "description": "Learn how Texas accident claims work, what issues can affect recovery, and when to speak with a Fort Worth personal injury attorney.",
   "tabs": [
     {
       "label": "Car Accidents",
