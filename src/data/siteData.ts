@@ -15,7 +15,7 @@ export const siteConfig = {
   },
   "formCTA": {
     "text": "Free Consultation",
-    "href": "#form"
+    "href": "https://1800thewolf.com/contact-us/"
   }
 };
 
@@ -260,7 +260,8 @@ export const navigation = {
     },
     {
       "name": "Contact",
-      "href": "#contact"
+      "href": "https://1800thewolf.com/contact-us/",
+      "external": true
     }
   ],
   "ctaText": "Subscribe",
