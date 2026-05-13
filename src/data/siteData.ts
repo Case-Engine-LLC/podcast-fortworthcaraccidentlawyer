@@ -273,18 +273,13 @@ export const footer = {
   "description": "Fort Worth Accident Attorney & Law is a podcast dedicated to helping Texas accident victims understand their legal rights and navigate the personal injury claims process. Hosted by experienced Fort Worth attorney Aaron Siddique, each episode delivers practical legal insights and empowers listeners to make informed decisions about their cases.",
   "copyright": "1-800 The Wolf Accident Attorneys",
   "socialLinks": {
-    "twitter": "#",
-    "linkedin": "#",
     "facebook": "#",
-    "instagram": "#",
-    "youtube": "#"
-  },
-  socialLinks: {
-      "instagram": "https://www.instagram.com/wolfoflawstreet_/",
-      "linkedin": "https://www.linkedin.com/company/thewolfoflawstreet",
-      "twitter": "https://x.com/1800thewolf",
-      "youtube": "https://www.youtube.com/@thewolfoflawstreet55"
-  },
+    "instagram": "https://www.instagram.com/wolfoflawstreet_/",
+    "linkedin": "https://www.linkedin.com/company/thewolfoflawstreet",
+    "twitter": "https://x.com/1800thewolf",
+    "youtube": "https://www.youtube.com/@thewolfoflawstreet55",
+    "tiktok": ""
+  }
 };
 
 export const awards = [
