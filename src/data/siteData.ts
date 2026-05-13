@@ -278,7 +278,13 @@ export const footer = {
     "facebook": "#",
     "instagram": "#",
     "youtube": "#"
-  }
+  },
+  socialLinks: {
+      "instagram": "https://www.instagram.com/wolfoflawstreet_/",
+      "linkedin": "https://www.linkedin.com/company/thewolfoflawstreet",
+      "twitter": "https://x.com/1800thewolf",
+      "youtube": "https://www.youtube.com/@thewolfoflawstreet55"
+  },
 };
 
 export const awards = [
@@ -408,25 +414,25 @@ export const topicalEntryGrid = {
         {
           "title": "Rear-End Collisions in Fort Worth",
           "description": "Learn about liability, common injuries, and compensation options for rear-end accidents on Fort Worth roads and highways.",
-          "href": "#rear-end-collisions",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-pa-car.svg"
         },
         {
           "title": "Intersection Accidents and Right-of-Way",
           "description": "Understand Texas traffic laws, fault determination, and your rights after an intersection collision in Fort Worth.",
-          "href": "#intersection-accidents",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-liability.svg"
         },
         {
           "title": "Hit-and-Run Accident Claims",
           "description": "Discover your legal options and insurance coverage when the at-fault driver flees the scene of an accident.",
-          "href": "#hit-and-run",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-investigate.svg"
         },
         {
           "title": "Distracted Driving Cases",
           "description": "Explore how texting, phone use, and other distractions create liability in Fort Worth car accident cases.",
-          "href": "#distracted-driving",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-defense.svg"
         }
       ]
@@ -437,25 +443,25 @@ export const topicalEntryGrid = {
         {
           "title": "18-Wheeler Crashes on Fort Worth Highways",
           "description": "Learn about the unique dangers of semi-truck accidents on I-35W, I-30, and other major Fort Worth thoroughfares.",
-          "href": "#18-wheeler-crashes",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-pa-truck.svg"
         },
         {
           "title": "Truck Driver Fatigue and Hours of Service",
           "description": "Understand federal regulations limiting truck driver hours and how violations contribute to serious accidents.",
-          "href": "#driver-fatigue",
+          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/",
           "image": "/topical/icon-svc-comply.svg"
         },
         {
           "title": "Cargo Loading and Securing Violations",
           "description": "Discover how improper cargo loading creates hazards and establishes liability in Fort Worth truck accident cases.",
-          "href": "#cargo-violations",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-liability.svg"
         },
         {
           "title": "Trucking Company Negligence",
           "description": "Explore how inadequate training, poor maintenance, and corporate policies lead to preventable truck accidents.",
-          "href": "#company-negligence",
+          "href": "https://1800thewolf.com/negligence-definition/",
           "image": "/topical/icon-svc-defense.svg"
         }
       ]
@@ -466,25 +472,25 @@ export const topicalEntryGrid = {
         {
           "title": "Left-Turn Motorcycle Collisions",
           "description": "Learn why left-turning vehicles are the leading cause of motorcycle accidents and how to prove fault in Fort Worth.",
-          "href": "#left-turn-collisions",
+          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/",
           "image": "/topical/icon-pa-moto.svg"
         },
         {
           "title": "Lane Splitting and Texas Law",
           "description": "Understand Texas regulations on lane splitting and how it affects liability in motorcycle accident cases.",
-          "href": "#lane-splitting",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-comply.svg"
         },
         {
           "title": "Road Hazards and Motorcycle Crashes",
           "description": "Discover how potholes, debris, and poor road maintenance contribute to motorcycle accidents and government liability.",
-          "href": "#road-hazards",
+          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/",
           "image": "/topical/icon-svc-investigate.svg"
         },
         {
           "title": "Motorcycle Accident Injuries and Compensation",
           "description": "Explore the severe injuries common in motorcycle crashes and the full compensation available to Fort Worth victims.",
-          "href": "#motorcycle-injuries",
+          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/",
           "image": "/topical/icon-pa-medical.svg"
         }
       ]
@@ -495,19 +501,19 @@ export const topicalEntryGrid = {
         {
           "title": "Filing a Wrongful Death Claim in Texas",
           "description": "Learn who can file a wrongful death lawsuit, time limits, and the types of compensation available to surviving family members.",
-          "href": "#wrongful-death-claims",
+          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/",
           "image": "/topical/icon-pa-wrongful-death.svg"
         },
         {
           "title": "Fatal Accident Investigations",
           "description": "Understand how Aaron Siddique conducts thorough investigations to establish liability in fatal accident cases.",
-          "href": "#fatal-investigations",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-investigate.svg"
         },
         {
           "title": "Damages in Wrongful Death Cases",
           "description": "Explore the economic and non-economic damages recoverable when a loved one is killed in a Fort Worth accident.",
-          "href": "#wrongful-death-damages",
+          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/",
           "image": "/topical/icon-svc-damages.svg"
         }
       ]
@@ -518,25 +524,25 @@ export const topicalEntryGrid = {
         {
           "title": "Dealing with Insurance Adjusters",
           "description": "Learn tactics insurance companies use to minimize payouts and how to protect your rights during claim negotiations.",
-          "href": "#insurance-adjusters",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-negotiate.svg"
         },
         {
           "title": "Uninsured and Underinsured Motorist Coverage",
           "description": "Understand how UM/UIM coverage works in Texas and when to file claims against your own insurance policy.",
-          "href": "#um-uim-coverage",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-insurance.svg"
         },
         {
           "title": "Bad Faith Insurance Practices",
           "description": "Discover when insurance companies act in bad faith and your legal options for holding them accountable.",
-          "href": "#bad-faith-insurance",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-defense.svg"
         },
         {
           "title": "Maximizing Your Settlement Offer",
           "description": "Learn strategies Aaron Siddique uses to negotiate higher settlements and when to take cases to trial.",
-          "href": "#maximizing-settlement",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-damages.svg"
         }
       ]
