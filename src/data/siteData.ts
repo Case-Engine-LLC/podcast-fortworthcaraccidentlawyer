@@ -58,6 +58,7 @@ export const compliance = {
 
 export const episode = {
   "number": 1,
+  "slug": "understanding-your-rights-after-a-fort-worth-car-accident",
   "title": "Understanding Your Rights After a Fort Worth Car Accident",
   "date": "01.15.24",
   "duration": "00:45:30",
