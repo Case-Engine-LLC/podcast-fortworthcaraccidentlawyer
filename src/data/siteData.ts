@@ -8,7 +8,7 @@ export const siteConfig = {
   "tagline": "NEW EPISODE",
   "podcastUrl": "https://fortworthaccident.attorney",
   "firmUrl": "https://1800thewolf.com",
-  "rssFeedUrl": "",
+  "rssFeedUrl": "https://rss2.flightcast.com/qpatm7i0bcirt3ju0af6hrkh.xml",
   "platformLinks": {
     "apple": "https://podcasts.apple.com/us/channel/aaron-siddique/id6769151616",
     "spotify": "https://open.spotify.com/show/1I39dhUriof7aBpNgyY8Cj"

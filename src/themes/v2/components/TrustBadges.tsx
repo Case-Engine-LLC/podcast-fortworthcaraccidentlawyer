@@ -11,7 +11,7 @@ const TrustBadges = () => {
   const badges = trustBadges
 
   return (
-    <div className="overflow-x-hidden py-6">
+    <div className="relative z-20 overflow-x-hidden py-6">
       <div className="flex animate-marquee-fast md:animate-marquee-slower">
         {/* First set */}
         {badges.map((badge) => (
