@@ -10,8 +10,8 @@ export const siteConfig = {
   "firmUrl": "https://1800thewolf.com",
   "rssFeedUrl": "",
   "platformLinks": {
-    "apple": "#",
-    "spotify": "#"
+    "apple": "https://podcasts.apple.com/us/channel/aaron-siddique/id6769151616",
+    "spotify": "https://open.spotify.com/show/1I39dhUriof7aBpNgyY8Cj"
   },
   "formCTA": {
     "text": "Free Consultation",
