@@ -36,7 +36,7 @@ const Header = ({ variant = 'dark' }: HeaderProps) => {
       <div className="max-w-container mx-auto px-6 md:px-12 py-2 flex items-center justify-between">
         {/* Logo — links to law firm homepage */}
         <Link href="/" className="flex items-center">
-            <img src="/logo.svg" alt={siteConfig.podcastName} className="h-16 md:h-20 w-auto object-contain" />
+            <img src="/logo.svg" alt={siteConfig.podcastName} className="h-20 md:h-24 w-auto object-contain" />
           </Link>
 
         {/* Desktop Nav */}
