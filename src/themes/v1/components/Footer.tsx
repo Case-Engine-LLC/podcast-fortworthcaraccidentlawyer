@@ -24,7 +24,7 @@ const Footer = () => {
 
   const epList = (episodesData as Array<{ id: number | string; number?: number; title: string }>).map(ep => ({
     name: `Episode ${ep.number ?? ep.id}: ${(ep.title || '').split(':')[0]}`,
-    href: `/episode/${ep.id}`,
+    href: `/episode/${ep.slug}`,
   }))
 
   const firmDomain = contact.website ? contact.website.replace(/^https?:\/\//, '').replace(/\/$/, '') : ''

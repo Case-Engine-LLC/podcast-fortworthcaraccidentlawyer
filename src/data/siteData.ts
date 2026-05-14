@@ -334,6 +334,7 @@ export const subscribeCTA = {
 export const episodes = [
   {
     "id": 1,
+    "slug": "understanding-your-rights-after-a-fort-worth-car-accident",
     "number": 1,
     "title": "Understanding Your Rights After a Fort Worth Car Accident",
     "subtitle": "Episode 1 \u2022 1-800 The Wolf Accident Attorneys",
@@ -361,6 +362,7 @@ export const episodes = [
   },
   {
     "id": 2,
+    "slug": "fort-worth-truck-accidents-why-they-re-different-and-more-dangerous",
     "number": 2,
     "title": "Fort Worth Truck Accidents: Why They're Different and More Dangerous",
     "subtitle": "Episode 2 \u2022 1-800 The Wolf Accident Attorneys",
