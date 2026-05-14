@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { FileText } from 'lucide-react'
 import FeaturedEpisodePlayer from './FeaturedEpisodePlayer'
 import { siteConfig, episode, content } from '@/data/siteData'
-import type { Episode } from '../../../lib/data'
+import type { Episode } from '@/lib/data'
 
 const isRealLink = (url?: string | null): url is string =>
   !!url && url.trim() !== '' && url.trim() !== '#'
