@@ -1,5 +1,7 @@
+import type { Metadata } from 'next'
 import V1EpisodePage from '@/themes/v1/pages/V1EpisodePage'
 import { getAllEpisodes, getEpisodeByIdOrSlug, getEpisodeTranscript } from '@/lib/data'
+import { siteConfig } from '@/data/siteData'
 
 export const revalidate = 3600
 
@@ -9,6 +11,36 @@ export async function generateStaticParams() {
     return episodes.map(ep => ({ id: ep.slug ?? String(ep.id) }))
   } catch {
     return []
+  }
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  const episode = await getEpisodeByIdOrSlug(id)
+  const siteHost = (siteConfig.podcastUrl || '').replace(/\/$/, '')
+
+  if (!episode) {
+    const fallbackPath = `/episode/${id}`
+    return {
+      title: 'Episode Not Found',
+      alternates: { canonical: fallbackPath },
+      openGraph: {
+        url: `${siteHost}${fallbackPath}`,
+      },
+    }
+  }
+
+  const canonicalPath = `/episode/${episode.slug ?? episode.id}`
+  return {
+    title: episode.title,
+    description: episode.description,
+    alternates: { canonical: canonicalPath },
+    openGraph: {
+      title: episode.title,
+      description: episode.description,
+      url: `${siteHost}${canonicalPath}`,
+      type: 'article',
+    },
   }
 }
 

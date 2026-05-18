@@ -105,18 +105,31 @@ const Footer = () => {
           <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4 mt-3">
             {contact.website && (
               <a
-                href={contact.website}
+                href={`${contact.website.replace(/\/$/, '')}/privacy-policy/`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs text-white/50 underline hover:text-white/80"
+                className="text-xs text-white/40 underline hover:text-white/60"
               >
-                Visit {firmDomain}
+                Privacy Policy
               </a>
+            )}
+            {contact.website && (
+              <>
+                <span className="text-xs text-white/20">|</span>
+                <a
+                  href={contact.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-white/50 underline hover:text-white/80"
+                >
+                  Visit {firmDomain}
+                </a>
+              </>
             )}
             {contact.phone && (
               <>
                 <span className="text-xs text-white/20">|</span>
-                <a href={`tel:${contact.phone.replace(/[^0-9+]/g, '')}`} className="text-xs text-white/50 hover:text-white/80">
+                <a href={`tel:${contact.phone.replace(/\D/g, '')}`} className="text-xs text-white/40 hover:text-white/60">
                   {contact.phone}
                 </a>
               </>
