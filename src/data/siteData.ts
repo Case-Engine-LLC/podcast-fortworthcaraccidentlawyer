@@ -511,7 +511,7 @@ export const topicalEntryGrid = {
         {
           "title": "Damages in Wrongful Death Cases",
           "description": "Explore the economic and non-economic damages recoverable when a loved one is killed in a Fort Worth accident.",
-          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/",
+          "href": "https://1800thewolf.com/category/wrongful-death/",
           "image": "/topical/icon-svc-damages.svg"
         }
       ]
@@ -528,7 +528,7 @@ export const topicalEntryGrid = {
         {
           "title": "Uninsured and Underinsured Motorist Coverage",
           "description": "Understand how UM/UIM coverage works in Texas and when to file claims against your own insurance policy.",
-          "href": "https://1800thewolf.com/",
+          "href": "https://1800thewolf.com/blog/uninsured-motorist-coverage/",
           "image": "/topical/icon-svc-insurance.svg"
         },
         {
