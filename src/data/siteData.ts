@@ -430,7 +430,7 @@ export const topicalEntryGrid = {
         {
           "title": "Distracted Driving Cases",
           "description": "Explore how texting, phone use, and other distractions create liability in Fort Worth car accident cases.",
-          "href": "https://1800thewolf.com/",
+          "href": "https://1800thewolf.com/distracted-driving-risks-and-responsibilities/",
           "image": "/topical/icon-svc-defense.svg"
         }
       ]
