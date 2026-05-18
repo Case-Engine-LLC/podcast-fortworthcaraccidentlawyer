@@ -358,7 +358,7 @@ export const episodes = [
       "When to Hire an Attorney",
       "Understanding Your Compensation Options"
     ],
-    "logo": "/images/logo.svg",
+    "logo": "",
     "youtubeUrl": ""
   },
   {
@@ -386,7 +386,7 @@ export const episodes = [
       "Identifying All Responsible Parties",
       "Building a Strong Truck Accident Case"
     ],
-    "logo": "/images/logo.svg",
+    "logo": "",
     "youtubeUrl": ""
   }
 ];
