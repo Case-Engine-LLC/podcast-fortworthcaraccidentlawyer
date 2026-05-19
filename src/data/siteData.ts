@@ -183,51 +183,51 @@ export const content = {
 export const testimonials = [
   {
     "id": 1,
-    "name": "Michael R.",
-    "initials": "MR",
-    "role": "Google Reviewer",
+    "name": "Melissa H.",
+    "initials": "MH",
+    "role": "Verified Client",
     "rating": 5,
-    "text": "Aaron Siddique and his team at 1-800 The Wolf Accident Attorneys handled my truck accident case with exceptional professionalism. They kept me informed every step of the way and fought hard to get me the compensation I deserved. I highly recommend them to anyone injured in Fort Worth."
+    "text": "I never had to call or question about anything. They stayed in touch with me and let me know of any updates among the way, was nothing but professional and kind. I will definitely refer them to 1-800 The Wolf Accident Attorneys. They are definitely fighting for you. Thank you to all those that took part in my case. The law firm was very welcoming & helpful all the way through the process."
   },
   {
     "id": 2,
-    "name": "Jennifer L.",
-    "initials": "JL",
-    "role": "Google Reviewer",
+    "name": "Tyler S.",
+    "initials": "TS",
+    "role": "Verified Client",
     "rating": 5,
-    "text": "After my car accident, I was overwhelmed and didn't know where to turn. Aaron Siddique made the entire process easy to understand and took care of everything while I focused on recovery. The settlement exceeded my expectations."
+    "text": "My ABSOLUTE lifesavers! I HIGHLY recommend TSF, they believe in putting their clients first! They communicated VERY well & was very responsive to any questions I had! The whole Siddique Firm is THE BEST. Leslie was my case manager during my process and it was a joy to work with her. She made everything seem so smooth. She communicated with me every other day if not everyday just to keep me updated."
   },
   {
     "id": 3,
-    "name": "Robert K.",
-    "initials": "RK",
-    "role": "Google Reviewer",
+    "name": "Yusi M.",
+    "initials": "YM",
+    "role": "Verified Client",
     "rating": 5,
-    "text": "I listen to Aaron's podcast regularly and when I needed a personal injury attorney, I knew exactly who to call. His knowledge of Texas law is impressive and he genuinely cares about his clients. Outstanding service from start to finish."
+    "text": "The Siddique Firm provided excellent legal support for my personal injury case, guiding me through every step with professionalism and care. Their expertise and dedication made a huge difference in achieving a successful outcome. I highly recommend them for anyone seeking reliable and effective legal representation."
   },
   {
     "id": 4,
-    "name": "Sarah M.",
-    "initials": "SM",
-    "role": "Google Reviewer",
+    "name": "Morgan G.",
+    "initials": "MG",
+    "role": "Verified Client",
     "rating": 5,
-    "text": "The team at 1-800 The Wolf went above and beyond for my motorcycle accident case. Aaron Siddique personally returned my calls and explained every legal option clearly. I'm grateful for their dedication and the results they achieved."
+    "text": "Wolf of Law Street walked me through a personal injury case and it went so smoothly. They did everything they could to make sure I was taken care of and in the loop, but didn't have me overly involved! They did their job and they did it well!! Couldn't be more thankful for the support I got from the team. Would send anyone to them, easy!"
   },
   {
     "id": 5,
-    "name": "David H.",
-    "initials": "DH",
-    "role": "Google Reviewer",
+    "name": "Caroline C.",
+    "initials": "CC",
+    "role": "Verified Client",
     "rating": 5,
-    "text": "After losing my wife in a wrongful death case, Aaron Siddique handled our family's case with compassion and expertise. He fought tirelessly for justice and helped us through the most difficult time of our lives. We cannot thank him enough."
+    "text": "Do not hesitate to reach out to 1-800 The Wolf Accident Attorneys! I was unexpectedly faced with a large contract that went WAY over my head. I contacted Aaron and he jumped right on it. He walked me through everything so I was able to understand what was being presented, and even came up with ways for me to counteroffer. He went above and beyond in a desperate time of need."
   },
   {
     "id": 6,
-    "name": "Amanda T.",
-    "initials": "AT",
-    "role": "Google Reviewer",
+    "name": "Abby C.",
+    "initials": "AC",
+    "role": "Verified Client",
     "rating": 5,
-    "text": "Aaron Siddique is not only an excellent attorney but also an educator through his podcast. When I was hit by a negligent driver in Fort Worth, his firm secured a settlement that covered all my medical bills and lost wages. Highly professional and results-driven."
+    "text": "This guy knew what was up. When I met him, he was so sincere and I could tell he genuinely cared about my case. He got me a quick and painless settlement that helped me to move past a hardship. You can really tell this man cares about the work he does, which is refreshing when dealing with such a hard time. Thank you wolf of law street!!"
   }
 ];
 
