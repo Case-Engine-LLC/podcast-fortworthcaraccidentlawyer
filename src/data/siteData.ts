@@ -412,25 +412,25 @@ export const topicalEntryGrid = {
         {
           "title": "Rear-End Collisions in Fort Worth",
           "description": "Learn about liability, common injuries, and compensation options for rear-end accidents on Fort Worth roads and highways.",
-          "href": "https://1800thewolf.com/fort-worth-car-accident-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-pa-car.svg"
         },
         {
           "title": "Intersection Accidents and Right-of-Way",
           "description": "Understand Texas traffic laws, fault determination, and your rights after an intersection collision in Fort Worth.",
-          "href": "https://1800thewolf.com/fort-worth-car-accident-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-liability.svg"
         },
         {
           "title": "Hit-and-Run Accident Claims",
           "description": "Discover your legal options and insurance coverage when the at-fault driver flees the scene of an accident.",
-          "href": "https://1800thewolf.com/fort-worth-car-accident-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-investigate.svg"
         },
         {
           "title": "Distracted Driving Cases",
           "description": "Explore how texting, phone use, and other distractions create liability in Fort Worth car accident cases.",
-          "href": "https://1800thewolf.com/fort-worth-car-accident-lawyer/",
+          "href": "https://1800thewolf.com/distracted-driving-risks-and-responsibilities/",
           "image": "/topical/icon-svc-defense.svg"
         }
       ]
@@ -441,7 +441,7 @@ export const topicalEntryGrid = {
         {
           "title": "18-Wheeler Crashes on Fort Worth Highways",
           "description": "Learn about the unique dangers of semi-truck accidents on I-35W, I-30, and other major Fort Worth thoroughfares.",
-          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-pa-truck.svg"
         },
         {
@@ -453,13 +453,13 @@ export const topicalEntryGrid = {
         {
           "title": "Cargo Loading and Securing Violations",
           "description": "Discover how improper cargo loading creates hazards and establishes liability in Fort Worth truck accident cases.",
-          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-liability.svg"
         },
         {
           "title": "Trucking Company Negligence",
           "description": "Explore how inadequate training, poor maintenance, and corporate policies lead to preventable truck accidents.",
-          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/",
+          "href": "https://1800thewolf.com/negligence-definition/",
           "image": "/topical/icon-svc-defense.svg"
         }
       ]
@@ -476,7 +476,7 @@ export const topicalEntryGrid = {
         {
           "title": "Lane Splitting and Texas Law",
           "description": "Understand Texas regulations on lane splitting and how it affects liability in motorcycle accident cases.",
-          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-comply.svg"
         },
         {
@@ -505,7 +505,7 @@ export const topicalEntryGrid = {
         {
           "title": "Fatal Accident Investigations",
           "description": "Understand how Aaron Siddique conducts thorough investigations to establish liability in fatal accident cases.",
-          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/",
+          "href": "https://1800thewolf.com/",
           "image": "/topical/icon-svc-investigate.svg"
         },
         {
