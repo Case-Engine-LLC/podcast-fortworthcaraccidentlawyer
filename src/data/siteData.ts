@@ -358,7 +358,7 @@ export const episodes = [
       "When to Hire an Attorney",
       "Understanding Your Compensation Options"
     ],
-    "logo": "",
+    "logo": "/cover-placeholder.jpg",
     "youtubeUrl": ""
   },
   {

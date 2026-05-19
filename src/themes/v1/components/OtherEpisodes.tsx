@@ -13,6 +13,7 @@ interface OtherEpisodesProps {
 
 const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
   const episodesData = propEpisodes ?? staticEpisodesData
+  const fallbackArt = episodesData.find((e) => (e as { logo?: string }).logo && (e as { logo?: string }).logo!.trim() !== '')?.logo as string | undefined
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const realEpisodes = episodesData.map(ep => ({
@@ -27,7 +28,7 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
 
   // Use the most recent real episode's cover as the Coming Soon thumbnail
   // so unreleased slots don't render the 337-byte /episode-art.avif placeholder.
-  const fallbackCover = realEpisodes[0]?.image ?? null
+  const fallbackCover = realEpisodes[0]?.image ?? fallbackArt ?? null
   const comingSoonSlots = Math.max(0, 3 - realEpisodes.length)
   const comingSoon = Array.from({ length: comingSoonSlots }, (_, i) => ({
     slug: undefined,
@@ -80,10 +81,12 @@ const OtherEpisodes = ({ episodes: propEpisodes }: OtherEpisodesProps) => {
                 className="group flex flex-col flex-shrink-0 w-full md:w-[calc(33.333%-1rem)]"
               >
                 <div className="aspect-video bg-gray-200 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
-                  {episode.image ? (
-                    <img src={episode.image} alt={episode.title} className="w-full h-full object-cover" />
+                  {(episode.image || fallbackArt) ? (
+                    <img src={episode.image || fallbackArt} alt={episode.title} className="w-full h-full object-cover" />
                   ) : (
-                    <img src="/episode-art.avif" alt={episode.title} className="w-full h-full object-cover opacity-60" />
+                    <div className="w-full h-full bg-gray-300 flex items-center justify-center">
+                      <span className="text-xs text-gray-500">{episode.episodeNumber}</span>
+                    </div>
                   )}
                 </div>
 
