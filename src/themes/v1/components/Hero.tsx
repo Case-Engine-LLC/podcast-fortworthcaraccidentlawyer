@@ -29,7 +29,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       {/* Hero Background Image - indexable - Desktop */}
       <figure className="hidden md:block absolute inset-0 z-0 m-0">
         <img
-          src="/hero-placeholder.jpg"
+          src="/Hero.jpg"
           alt={content.heroTitle}
           className="w-full h-full object-cover object-[center_right]"
         />
@@ -38,11 +38,30 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       {/* Hero Background Image - Mobile/Tablet */}
       <figure className="md:hidden absolute inset-0 z-0 m-0">
         <img
-          src="/hero-placeholder.jpg"
+          src="/mob-bg.jpg"
           alt={content.heroTitle}
           className="w-full h-full object-cover object-center"
         />
       </figure>
+
+      {/* Desktop overlay: left to right, transparent on the right */}
+      <div
+        aria-hidden
+        className="hidden md:block absolute inset-0 z-0 pointer-events-none"
+        style={{
+          background:
+            'linear-gradient(90deg, rgba(24,30,53,0.90) 0%, rgba(24,30,53,0.75) 35%, rgba(24,30,53,0.20) 60%, rgba(24,30,53,0.00) 70%)',
+        }}
+      />
+      {/* Mobile overlay: top to bottom, fully transparent by 40% */}
+      <div
+        aria-hidden
+        className="md:hidden absolute inset-0 z-0 pointer-events-none"
+        style={{
+          background:
+            'linear-gradient(180deg, rgba(24,30,53,0.90) 0%, rgba(24,30,53,0.60) 25%, rgba(24,30,53,0.00) 40%)',
+        }}
+      />
 
       {/* Marquee Banner */}
       <div className="relative z-[1] bg-secondary py-3 md:py-4 overflow-hidden whitespace-nowrap -rotate-[2deg] transform origin-center">
