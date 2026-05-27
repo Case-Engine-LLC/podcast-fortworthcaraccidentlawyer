@@ -25,11 +25,11 @@ const Hero = ({ latestEpisode }: HeroProps) => {
 
   return (
     <>
-    <section className="hero-section relative pt-[7rem] md:pt-[9rem] pb-12 md:pb-0 md:h-[90vh]">
+    <section className="hero-section relative pt-[5rem] md:pt-[6rem] pb-12 md:pb-24 md:min-h-[90vh] overflow-hidden">
       {/* Hero Background Image - indexable - Desktop */}
       <figure className="hidden md:block absolute inset-0 z-0 m-0">
         <img
-          src="/hero-placeholder.jpg"
+          src="/hero_bg.jpg"
           alt={content.heroTitle}
           className="w-full h-full object-cover object-[center_right]"
         />
@@ -38,11 +38,20 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       {/* Hero Background Image - Mobile/Tablet */}
       <figure className="md:hidden absolute inset-0 z-0 m-0">
         <img
-          src="/hero-placeholder.jpg"
+          src="/hero_bg.jpg"
           alt={content.heroTitle}
           className="w-full h-full object-cover object-center"
         />
       </figure>
+
+      {/* Attorney Image - absolutely positioned so it doesn't stretch the section */}
+      <div className="hidden md:flex absolute bottom-0 right-0 lg:right-[4%] z-[1] h-[68%] lg:h-[78%] items-end pointer-events-none">
+        <img
+          src="/hero_attorney.png"
+          alt={content.heroTitle}
+          className="h-full w-auto object-contain object-bottom block"
+        />
+      </div>
 
       {/* Marquee Banner */}
       <div className="relative z-[1] bg-secondary py-3 md:py-4 overflow-hidden whitespace-nowrap -rotate-[2deg] transform origin-center">
@@ -57,7 +66,7 @@ const Hero = ({ latestEpisode }: HeroProps) => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-[1] max-w-container mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12">
+      <div className="relative z-[2] max-w-container mx-auto px-4 md:px-12 pt-6 md:pt-12 pb-0 md:pb-12">
         {/* Text Content */}
         <div className="md:w-[55%] pb-6 md:pb-16 text-center md:text-left">
           {/* Heading */}
