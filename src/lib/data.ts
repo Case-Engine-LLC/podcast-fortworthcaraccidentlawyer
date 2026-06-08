@@ -35,26 +35,50 @@ export interface Episode {
   youtubeUrl?: string
 }
 
+function normalizeEpisodeKey(value: string | undefined): string {
+  return slugifyEpisode(value || '').toLowerCase()
+}
+
+function findStaticEpisodeOverride(ep: RSSEpisode, generatedSlug: string): Episode | null {
+  const staticEpisode = (staticEpisodes as Record<string, unknown>[]).find((candidate) => {
+    const candidateSlug = candidate.slug as string | undefined
+    const candidateTitle = candidate.title as string | undefined
+    const candidateGuid = (candidate.guid || candidate.rssGuid || candidate.sourceGuid) as string | undefined
+
+    return (
+      (!!candidateGuid && candidateGuid === ep.guid)
+      || (!!candidateSlug && candidateSlug === generatedSlug)
+      || normalizeEpisodeKey(candidateTitle) === normalizeEpisodeKey(ep.title)
+    )
+  })
+
+  return staticEpisode ? normalizeStaticEpisode(staticEpisode) : null
+}
+
 function rssEpisodeToEpisode(ep: RSSEpisode): Episode {
+  const generatedSlug = slugifyEpisode(ep.title, String(ep.id))
+  const override = findStaticEpisodeOverride(ep, generatedSlug)
+
   return {
     id: ep.id,
-    slug: slugifyEpisode(ep.title, String(ep.id)),
+    slug: override?.slug || generatedSlug,
     number: ep.id,
-    title: ep.title,
-    subtitle: ep.subtitle,
-    description: ep.description,
-    duration: ep.duration,
+    title: override?.title || ep.title,
+    subtitle: override?.subtitle || ep.subtitle,
+    description: override?.description || ep.description,
+    duration: override?.duration || ep.duration,
     date: ep.date,
-    category: ep.category,
+    category: override?.category || ep.category,
     featured: ep.featured,
-    topic: ep.topic,
-    concepts: ep.concepts,
-    chapters: ep.chapters,
-    logo: ep.logo,
+    topic: override?.topic || ep.topic,
+    concepts: override?.concepts?.length ? override.concepts : ep.concepts,
+    chapters: override?.chapters?.length ? override.chapters : ep.chapters,
+    logo: override?.logo || ep.logo,
     audioUrl: ep.audioUrl || undefined,
     audioType: ep.audioType || undefined,
     transcriptUrl: ep.transcriptUrl,
     transcriptType: ep.transcriptType,
+    youtubeUrl: override?.youtubeUrl,
   }
 }
 

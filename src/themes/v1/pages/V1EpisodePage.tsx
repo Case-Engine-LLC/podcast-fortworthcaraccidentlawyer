@@ -9,10 +9,12 @@ import { siteConfig, attorney, contact, episode } from '@/data/siteData'
 import type { Episode } from '@/lib/data'
 import type { TranscriptSegment } from '@/lib/rss'
 
-const SITE_URL = contact.website
+const SITE_URL = siteConfig.podcastUrl.replace(/\/$/, '')
 
-export function generateEpisodeSchema(episodeId: string) {
-  const episodeUrl = `${SITE_URL}/episode/${episodeId}`
+export function generateEpisodeSchema(episodeId: string, resolvedEpisode?: Episode | null) {
+  const ep = resolvedEpisode ?? episode
+  const slugPart = resolvedEpisode?.slug ?? episodeId
+  const episodeUrl = `${SITE_URL}/episode/${slugPart}`
 
   return {
     '@context': 'https://schema.org',
@@ -21,9 +23,9 @@ export function generateEpisodeSchema(episodeId: string) {
         '@type': 'WebPage',
         '@id': `${episodeUrl}#webpage`,
         'url': episodeUrl,
-        'name': `${episode.title} | ${siteConfig.podcastName}`,
-        'headline': episode.title,
-        'description': episode.description,
+        'name': `${ep.title} | ${siteConfig.podcastName}`,
+        'headline': ep.title,
+        'description': ep.description,
         'inLanguage': 'en',
         'isPartOf': { '@id': `${SITE_URL}/#website` },
         'speakable': {
@@ -34,11 +36,20 @@ export function generateEpisodeSchema(episodeId: string) {
       {
         '@type': 'PodcastEpisode',
         '@id': `${episodeUrl}#episode`,
-        'name': episode.title,
-        'description': episode.description,
+        'name': ep.title,
+        'description': ep.description,
         'url': episodeUrl,
-        'episodeNumber': episode.number,
-        'duration': `PT${episode.duration.replace(':', 'H').replace(':', 'M')}S`,
+        'episodeNumber': ep.number,
+        'duration': `PT${ep.duration.replace(':', 'H').replace(':', 'M')}S`,
+        ...(resolvedEpisode?.audioUrl
+          ? {
+              associatedMedia: {
+                '@type': 'MediaObject',
+                contentUrl: resolvedEpisode.audioUrl,
+                encodingFormat: resolvedEpisode.audioType || 'audio/mpeg',
+              },
+            }
+          : {}),
         'partOfSeries': { '@id': `${SITE_URL}/#podcast` },
         'productionCompany': { '@id': `${SITE_URL}/#org` },
         'speakable': {
@@ -73,7 +84,7 @@ interface V1EpisodePageProps {
 }
 
 const V1EpisodePage = ({ episodeId, episode: rssEpisode, allEpisodes, transcript }: V1EpisodePageProps) => {
-  const schema = generateEpisodeSchema(episodeId)
+  const schema = generateEpisodeSchema(episodeId, rssEpisode)
 
   return (
     <div className="bg-white min-h-screen overflow-x-hidden">
@@ -90,7 +101,7 @@ const V1EpisodePage = ({ episodeId, episode: rssEpisode, allEpisodes, transcript
         <FAQ />
       </main>
 
-      <Footer />
+      <Footer episodes={allEpisodes} />
     </div>
   )
 }
