@@ -16,7 +16,9 @@ const SITE_URL =
   siteConfig.podcastUrl?.replace(/\/$/, '') ||
   contact.website?.replace(/\/$/, '') ||
   'https://podcast-fortworthcaraccidentlawyer.vercel.app'
-const TITLE = siteConfig.podcastName
+// Meta/SEO title — "Podcast" inserted before the host and "w." spelled out.
+// Visible on-page headings use siteConfig.podcastName directly.
+const TITLE = siteConfig.podcastName.replace(' w. ', ' Podcast with ')
 const DESCRIPTION = about.description
 const hostProfile = Object.values(authorProfiles)[0]
 const HOST_NAME = hostProfile?.name || attorney.name

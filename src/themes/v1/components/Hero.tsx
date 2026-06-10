@@ -119,6 +119,14 @@ const Hero = ({ latestEpisode }: HeroProps) => {
           </div>
         </div>
 
+        {/* Attorney Image - mobile only (desktop version is absolutely positioned) */}
+        <div className="md:hidden flex justify-center -mb-12 mt-2">
+          <img
+            src="/hero_attorney.png"
+            alt={content.heroTitle}
+            className="h-[22rem] w-auto object-contain object-bottom pointer-events-none"
+          />
+        </div>
       </div>
     </section>
 

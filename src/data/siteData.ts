@@ -169,7 +169,7 @@ export const faqGroups = [
 ];
 
 export const content = {
-  "heroTitle": "Fort Worth Accident Attorney & Law with Aaron Siddique",
+  "heroTitle": "Fort Worth Accident Attorney & Law Podcast with Aaron Siddique",
   "heroDescription": "Join Fort Worth personal injury attorney Aaron Siddique as he breaks down the complex world of accident law in Texas. Each episode delivers practical legal insights, real-world case examples, and actionable advice for accident victims navigating the claims process. Whether you've been injured in a car crash, truck accident, or any other incident in the Dallas-Fort Worth area, this podcast provides the knowledge you need to protect your rights and pursue fair recovery.",
   "articleTitle": "Empowering Fort Worth Accident Victims Through Legal Education",
   "articleParagraphs": [
@@ -251,6 +251,11 @@ export const navigation = {
       "href": "#episodes"
     },
     {
+      "name": "1-800 The Wolf Accident Attorneys",
+      "href": "https://1800thewolf.com/",
+      "external": true
+    },
+    {
       "name": "About",
       "href": "#about"
     },
@@ -258,15 +263,10 @@ export const navigation = {
       "name": "Meet Aaron Siddique",
       "href": "https://www.aaronsiddique.attorney/",
       "external": true
-    },
-    {
-      "name": "Contact",
-      "href": "https://1800thewolf.com/contact-us/",
-      "external": true
     }
   ],
-  "ctaText": "Subscribe",
-  "ctaHref": "#subscribe"
+  "ctaText": "Contact",
+  "ctaHref": "https://1800thewolf.com/contact-us/"
 };
 
 export const footer = {

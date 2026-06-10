@@ -36,7 +36,7 @@ const Header = ({ variant = 'dark' }: HeaderProps) => {
       <div className="max-w-container mx-auto px-6 md:px-12 py-3 md:py-4 flex items-center justify-between">
         {/* Logo — links to law firm homepage */}
         <Link href="/" className="flex items-center">
-            <img src="/logo.svg" alt={siteConfig.podcastName} className="h-10 md:h-12 w-auto object-contain" />
+            <img src="/logo.svg" alt={siteConfig.podcastName} className="h-16 md:h-20 w-auto object-contain" />
           </Link>
 
         {/* Desktop Nav */}
@@ -69,6 +69,8 @@ const Header = ({ variant = 'dark' }: HeaderProps) => {
         <div className="hidden md:flex items-center">
           <Link
             href={navigation.ctaHref.startsWith('#') ? `/${navigation.ctaHref}` : navigation.ctaHref}
+            target={/^https?:\/\//.test(navigation.ctaHref) ? '_blank' : undefined}
+            rel={/^https?:\/\//.test(navigation.ctaHref) ? 'noopener noreferrer' : undefined}
             className={`px-6 py-2.5 rounded-lg text-base font-semibold ${buttonBg} transition-all`}
           >
             {navigation.ctaText}
@@ -113,6 +115,8 @@ const Header = ({ variant = 'dark' }: HeaderProps) => {
           })}
           <Link
             href={navigation.ctaHref.startsWith('#') ? `/${navigation.ctaHref}` : navigation.ctaHref}
+            target={/^https?:\/\//.test(navigation.ctaHref) ? '_blank' : undefined}
+            rel={/^https?:\/\//.test(navigation.ctaHref) ? 'noopener noreferrer' : undefined}
             className={`flex items-center justify-center px-6 py-3 rounded-lg text-base font-semibold ${buttonBg}`}
             onClick={() => setIsMenuOpen(false)}
           >
