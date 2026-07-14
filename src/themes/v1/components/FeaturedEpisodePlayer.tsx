@@ -143,7 +143,7 @@ const FeaturedEpisodePlayer = ({
           <div>
             <div className="flex items-start justify-between mb-2">
               <h3 className="text-xl md:text-2xl font-bold text-black leading-tight pr-4">{title}</h3>
-              <Link href={episodeLink} className="flex items-center gap-1 text-sm text-black hover:opacity-70 transition-opacity shrink-0">
+              <Link href={episodeLink} className="flex items-center gap-1 rounded-full bg-secondary px-4 py-2 text-sm font-semibold text-black transition-colors hover:bg-[var(--color-secondary-hover)] shrink-0">
                 Episode Page <ChevronRight size={16} />
               </Link>
             </div>

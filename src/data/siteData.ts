@@ -551,38 +551,45 @@ export const topicalEntryGrid = {
 export const trustBadges = [
   {
     "id": 1,
-    "title": "Super Lawyers Rising Star",
-    "tooltip": "Aaron Siddique has been recognized as a Super Lawyers Rising Star, an honor reserved for outstanding attorneys who have achieved exceptional results in personal injury law. This distinction is awarded to only 2.5% of attorneys in Texas based on peer recognition and professional achievement.",
-    "badge": "/badges/super-lawyers-rising-star.webp",
+    "title": "Super Lawyers Rising Stars",
+    "tooltip": "Aaron Siddique named a Super Lawyers Rising Star for exceptional achievement in personal injury law and dedication to client advocacy in Texas.",
+    "badge": "/badges/super-lawyers-rising.png",
     "href": "#super-lawyers"
   },
   {
     "id": 2,
-    "title": "Top 40 Under 40",
-    "tooltip": "Selected by the National Trial Lawyers as one of the Top 40 Under 40 civil plaintiff trial lawyers in Texas. This prestigious recognition highlights Aaron Siddique's exceptional trial skills, significant case results, and dedication to advocating for injured clients in Fort Worth and throughout the state.",
-    "badge": "/badges/national-trial-lawyers-top-40.png",
-    "href": "#top-40-under-40"
+    "title": "10 Best — Client Satisfaction (AIPIA)",
+    "tooltip": "Recognized two years running by the American Institute of Personal Injury Attorneys as one of the 10 Best Attorneys for Client Satisfaction.",
+    "badge": "/badges/aipia-10best.png",
+    "href": "#aipia-10-best"
   },
   {
     "id": 3,
-    "title": "Avvo Clients' Choice",
-    "tooltip": "The Avvo Clients' Choice Award is presented to attorneys who have received consistently outstanding client reviews and maintain the highest ratings for professional service. Aaron Siddique earned this recognition based on verified 5-star reviews from personal injury clients who experienced exceptional representation.",
-    "badge": "/badges/avvo-clients-choice.png",
-    "href": "#avvo-choice"
+    "title": "Lawyers of Distinction 2021",
+    "tooltip": "Named to Lawyers of Distinction in 2021, recognizing attorneys for excellence and professional achievement in their practice areas.",
+    "badge": "/badges/lawyers-of-distinction.png",
+    "href": "#lawyers-of-distinction"
   },
   {
     "id": 4,
-    "title": "Million Dollar Advocates Forum",
-    "tooltip": "Membership in the Million Dollar Advocates Forum is limited to trial lawyers who have won million-dollar verdicts and settlements for their clients. Aaron Siddique's inclusion recognizes his proven ability to secure fair compensation for Fort Worth accident victims in complex personal injury cases.",
-    "badge": "/badges/million-dollar-advocates.gif",
-    "href": "#million-dollar-advocates"
+    "title": "Texas Trial Lawyers Association",
+    "tooltip": "Member of the Texas Trial Lawyers Association, supporting the rights of injured Texans and the civil justice system.",
+    "badge": "/badges/texas-trial-lawyers.png",
+    "href": "#texas-trial-lawyers"
   },
   {
     "id": 5,
-    "title": "Client Champion Award",
-    "tooltip": "The Client Champion Award honors attorneys who demonstrate unwavering commitment to client advocacy, maintain exceptional communication throughout the legal process, and consistently achieve superior outcomes in personal injury litigation. Aaron Siddique received this recognition for his client-focused approach and dedication to justice.",
-    "badge": "/badges/client-champion.png",
-    "href": "#client-champion"
+    "title": "Dallas Trial Lawyers Association",
+    "tooltip": "Member of the Dallas Trial Lawyers Association, advocating for accident victims throughout the Dallas–Fort Worth area.",
+    "badge": "/badges/dallas-trial-lawyers.png",
+    "href": "#dallas-trial-lawyers"
+  },
+  {
+    "id": 6,
+    "title": "State Bar of Texas",
+    "tooltip": "Licensed and in good standing with the State Bar of Texas, admitted to practice law throughout the state.",
+    "badge": "/badges/state-bar-texas.png",
+    "href": "#state-bar-texas"
   }
 ];
 
