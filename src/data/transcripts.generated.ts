@@ -28,6 +28,7 @@
  * falls back to this numeric map for the static/no-RSS path.
  */
 import type { TranscriptSegment } from '@/lib/rss'
+import { episodeTranscript as episode3Transcript } from '@/data/transcript-ep3.generated'
 
 export const generatedTranscripts: Record<number, TranscriptSegment[]> = {
   1: [
@@ -351,6 +352,7 @@ export const generatedTranscripts: Record<number, TranscriptSegment[]> = {
     { timestamp: "01:00:28", speaker: "Abby", text: "All right. If you have been in a car accident in Fort Worth and you are not sure what to do next, make that call. You can find 1-800-THE-WOLF accident attorneys at www.1800thewolf.com or call them directly at one eight hundred the wolf. The Fort Worth office direct line is eight one seven two o three four five four nine." },
     { timestamp: "01:00:49", speaker: "Abby", text: "Thanks for watching, and we will see you on the next episode of 1-800-THE-WOLF Accident Attorneys." },
   ],
+  3: episode3Transcript,
 }
 
 // Live FlightCast RSS guids. Resolved by episode.guid in getEpisodeTranscript
@@ -364,4 +366,5 @@ export const generatedTranscripts: Record<number, TranscriptSegment[]> = {
 export const TRANSCRIPTS_BY_GUID: Record<string, TranscriptSegment[]> = {
   'flightcast:01KSJCMR9T92TEGQKHDNJNQWKM': generatedTranscripts[1],
   'flightcast:01KTA1HCAAJSS6P6S2HDF42Z9X': generatedTranscripts[2],
+  "flightcast:01KYAY9MXS6QY9EWC9HP7D5TY1": episode3Transcript,
 }
