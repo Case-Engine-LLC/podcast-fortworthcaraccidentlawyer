@@ -126,7 +126,7 @@ export const faqGroups = [
       {
         "question": "How Often Are New Podcast Episodes Released?",
         "level": "h3",
-        "answer": "New episodes of Fort Worth Accident Attorney & Law are released weekly, providing consistent legal education and updates on personal injury law in Texas. Aaron Siddique ensures each episode delivers actionable information that accident victims and their families can use when navigating the legal system."
+        "answer": "New episodes of Fort Worth Accident Attorney & Law are released monthly, providing consistent legal education and updates on personal injury law in Texas. Aaron Siddique ensures each episode delivers actionable information that accident victims and their families can use when navigating the legal system."
       },
       {
         "question": "Who should listen to this podcast?",
@@ -310,7 +310,7 @@ export const about = {
   "title": "About Fort Worth Accident Attorney & Law with Aaron Siddique",
   "description": "Fort Worth Accident Attorney & Law is a podcast dedicated to empowering accident victims with the legal knowledge they need to protect their rights and help them pursue fair compensation. Hosted by Aaron Siddique, lead attorney at 1-800 The Wolf Accident Attorneys, each episode breaks down complex personal injury law into actionable insights that listeners can use when navigating insurance claims, medical treatment, and legal proceedings. Aaron Siddique brings years of courtroom experience and a passion for client advocacy to every episode, discussing real cases, Texas-specific laws, and practical strategies for anyone who has been injured in a car accident, truck collision, motorcycle crash, or other personal injury incident in Fort Worth and surrounding areas.",
   "highlights": [
-    "Weekly episodes covering car accidents, truck collisions, motorcycle crashes, wrongful death, and traumatic brain injuries",
+    "Monthly episodes covering car accidents, truck collisions, motorcycle crashes, wrongful death, and traumatic brain injuries",
     "Experienced legal analysis from Aaron Siddique, a leading Fort Worth personal injury attorney with over $100M recovered for clients",
     "Real-world case studies and practical advice for navigating insurance claims and the Texas legal system",
     "Q&A episodes addressing listener questions about personal injury law and victim rights",
@@ -322,9 +322,9 @@ export const about = {
 
 export const subscribeCTA = {
   "title": "Never Miss an Episode",
-  "description": "Subscribe to Fort Worth Accident Attorney & Law to receive weekly episodes packed with legal insights, case updates, and practical advice for protecting your rights after an accident. Aaron Siddique delivers the information you need to make informed decisions about your personal injury case, whether you're dealing with insurance adjusters, considering legal action, or simply want to understand your options under Texas law.",
+  "description": "Subscribe to Fort Worth Accident Attorney & Law to receive monthly episodes packed with legal insights, case updates, and practical advice for protecting your rights after an accident. Aaron Siddique delivers the information you need to make informed decisions about your personal injury case, whether you're dealing with insurance adjusters, considering legal action, or simply want to understand your options under Texas law.",
   "highlights": [
-    "Weekly episodes delivered directly to your favorite podcast platform",
+    "Monthly episodes delivered directly to your favorite podcast platform",
     "Experienced legal guidance from Aaron Siddique and 1-800 The Wolf Accident Attorneys",
     "Practical tips for maximizing your personal injury claim and avoiding common mistakes",
     "Updates on Texas personal injury law changes that could affect your case",
