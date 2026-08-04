@@ -10,7 +10,7 @@ export const siteConfig = {
   "firmUrl": "https://1800thewolf.com",
   "rssFeedUrl": "https://rss2.flightcast.com/qpatm7i0bcirt3ju0af6hrkh.xml",
   "platformLinks": {
-    "apple": "https://podcasts.apple.com/us/channel/aaron-siddique/id6769151616",
+    "apple": "",
     "spotify": "https://open.spotify.com/show/1I39dhUriof7aBpNgyY8Cj"
   },
   "formCTA": {
@@ -441,7 +441,7 @@ export const topicalEntryGrid = {
         {
           "title": "18-Wheeler Crashes on Fort Worth Highways",
           "description": "Learn about the unique dangers of semi-truck accidents on I-35W, I-30, and other major Fort Worth thoroughfares.",
-          "href": "https://1800thewolf.com/",
+          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/",
           "image": "/topical/icon-pa-truck.svg"
         },
         {
@@ -453,7 +453,7 @@ export const topicalEntryGrid = {
         {
           "title": "Cargo Loading and Securing Violations",
           "description": "Discover how improper cargo loading creates hazards and establishes liability in Fort Worth truck accident cases.",
-          "href": "https://1800thewolf.com/",
+          "href": "https://1800thewolf.com/fort-worth-truck-accident-lawyer/",
           "image": "/topical/icon-svc-liability.svg"
         },
         {
@@ -476,7 +476,7 @@ export const topicalEntryGrid = {
         {
           "title": "Lane Splitting and Texas Law",
           "description": "Understand Texas regulations on lane splitting and how it affects liability in motorcycle accident cases.",
-          "href": "https://1800thewolf.com/",
+          "href": "https://1800thewolf.com/fort-worth-motorcycle-accident-lawyer/",
           "image": "/topical/icon-svc-comply.svg"
         },
         {
@@ -505,7 +505,7 @@ export const topicalEntryGrid = {
         {
           "title": "Fatal Accident Investigations",
           "description": "Understand how Aaron Siddique conducts thorough investigations to establish liability in fatal accident cases.",
-          "href": "https://1800thewolf.com/",
+          "href": "https://1800thewolf.com/fort-worth-wrongful-death-lawyer/",
           "image": "/topical/icon-svc-investigate.svg"
         },
         {

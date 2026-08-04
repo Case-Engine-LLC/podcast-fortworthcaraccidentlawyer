@@ -42,6 +42,7 @@ const TopicalEntryGrid = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {topicalEntryGrid.tabs[activeTab].links.map((link, index) => {
             const isExternal = /^https?:\/\//.test(link.href)
+            const isHomepagePlaceholder = link.href.replace(/\/$/, '') === 'https://1800thewolf.com'
             const image = (link as { image?: string }).image
             const cardClass = "bg-white rounded-2xl overflow-hidden hover:shadow-xl transition-all group p-6 md:p-8 flex items-start gap-5"
             const inner = (
@@ -62,7 +63,9 @@ const TopicalEntryGrid = () => {
                 </div>
               </>
             )
-            return isExternal ? (
+            return isHomepagePlaceholder ? (
+              <div key={index} className={cardClass}>{inner}</div>
+            ) : isExternal ? (
               <a key={index} href={link.href} target="_blank" rel="noopener noreferrer" className={cardClass}>{inner}</a>
             ) : (
               <Link key={index} href={link.href} className={cardClass}>{inner}</Link>

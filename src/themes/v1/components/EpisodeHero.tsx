@@ -73,7 +73,7 @@ const EpisodeHero = ({ episode: propEpisode }: EpisodeHeroProps) => {
 
               {/* Platform Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <a
+                {siteConfig.platformLinks.apple && <a
                   href={siteConfig.platformLinks.apple}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const EpisodeHero = ({ episode: propEpisode }: EpisodeHeroProps) => {
                     <div className="text-xs text-white/60 uppercase">Available on</div>
                     <div className="text-base font-bold text-white">Apple Podcast</div>
                   </div>
-                </a>
+                </a>}
 
                 <a
                   href={siteConfig.platformLinks.spotify}
@@ -124,7 +124,7 @@ const EpisodeHero = ({ episode: propEpisode }: EpisodeHeroProps) => {
             </div>
 
             {/* Right Image — Episode Thumbnail */}
-            <div className="relative w-full aspect-square flex items-center justify-center">
+            <div className="relative w-full aspect-square flex items-center justify-center md:sticky md:top-28 self-start">
               <div className="w-full h-full rounded-2xl overflow-hidden bg-black">
                 <img
                   src={(ep as { logo?: string }).logo || fallbackArt}
