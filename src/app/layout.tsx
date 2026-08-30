@@ -6,6 +6,7 @@ import SchemaJsonLd from '@/components/SchemaJsonLd'
 import { about, attorney, authorProfiles, contact, siteConfig } from '@/data/siteData'
 import './globals.css'
 import '@/themes/v1/variables.css'
+import { AgentTools } from '@/components/AgentTools'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -123,6 +124,8 @@ export default function RootLayout({
         {children}
         <MarkerWidget />
         <Analytics gtmId={process.env.NEXT_PUBLIC_GTM_ID || 'GTM-K7GPSCVB'} />
+        <AgentTools />
+
       </body>
     </html>
   )
