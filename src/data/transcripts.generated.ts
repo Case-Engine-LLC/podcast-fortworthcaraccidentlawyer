@@ -30,7 +30,7 @@
 import type { TranscriptSegment } from '@/lib/rss'
 import { episodeTranscript as episode3Transcript } from '@/data/transcript-ep3.generated'
 
-export const generatedTranscripts: Record<number, TranscriptSegment[]> = {
+export const generatedTranscripts: Record<string, TranscriptSegment[]> = {
   1: [
     { timestamp: "00:09", speaker: "Alexis Haynal", text: "Welcome to our very first episode of Fort Worth, accident Attorney and Law. Aaron s the podcast about personal injury and car accidents. Serving Texas specifically in Fort Worth, Houston. I'm Alexis, and today we're doing something special. We're gonna explore the expertise and background of our co-host and expert attorney Aaron Sadique in what we affectionately call the You Interview. We wanna get to know how Aaron Sadique became Aaron Sadique, the founder and managing partner of the Texas based law firm, 1800, the Wolf Accident Attorneys. That's exactly what we're here to explore today. Aaron, thank you so much for being here today." },
     { timestamp: "00:48", speaker: "Aaron Siddique", text: "Hey, I'm so excited to be here and to do this and to let the world know why this is the best place to come. If you have questions about car accidents." },
