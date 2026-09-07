@@ -558,7 +558,7 @@ export const trustBadges = [
   },
   {
     "id": 2,
-    "title": "10 Best: Client Satisfaction (AIPIA)",
+    "title": "10 Best, Client Satisfaction (AIPIA)",
     "tooltip": "Recognized two years running by the American Institute of Personal Injury Attorneys as one of the 10 Best Attorneys for Client Satisfaction.",
     "badge": "/badges/aipia-10best.png",
     "href": "#aipia-10-best"
